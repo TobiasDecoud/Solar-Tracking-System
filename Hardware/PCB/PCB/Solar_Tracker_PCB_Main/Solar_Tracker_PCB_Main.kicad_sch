@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "99b6ddd9-7ffe-4c85-972a-e0f594a166d4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 41.91 29.21)
+		(size 44.45 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "521ed49f-67a8-4f65-9cb7-064f532bae28")
+		(property "Sheetname" "MCU"
+			(at 41.91 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 41.91 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

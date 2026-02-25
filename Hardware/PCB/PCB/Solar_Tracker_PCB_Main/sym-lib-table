@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-S3-WROOM-1-N4R8")(type "KiCad")(uri "C:/Users/tobia/Documentos/GitHub/Solar-Tracking-System/Hardware/PCB/Footprints/Esp32/ESP32-S3-WROOM-1-N4R8/KiCad/ESP32-S3-WROOM-1-N4R8.kicad_sym")(options "")(descr ""))
+)
