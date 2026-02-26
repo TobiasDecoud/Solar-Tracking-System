@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f9637f06-ebeb-444f-b085-68031825e5e7")
+	(uuid "a1b777ab-ee4c-4505-9fbd-28d3ee004c8b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
@@ -919,7 +919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 172.72 74.9299 0)
 			(effects
 				(font
@@ -1055,7 +1055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 165.1 74.9299 0)
 			(effects
 				(font
@@ -1392,7 +1392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 157.48 74.9299 0)
 			(effects
 				(font
