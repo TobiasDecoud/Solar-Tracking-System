@@ -47,6 +47,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 152.4 27.94)
+		(size 49.53 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f97fc139-d272-4197-86c8-5477ab805d85")
+		(property "Sheetname" "Sensor_Light"
+			(at 152.4 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor_Light.kicad_sch"
+			(at 152.4 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

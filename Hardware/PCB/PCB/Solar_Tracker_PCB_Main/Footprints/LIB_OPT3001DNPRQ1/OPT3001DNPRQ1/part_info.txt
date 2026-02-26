@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPT3001DNPRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=7
+Version=1.1
+Released=2019-05-31 09:48:52
+Downloaded=2026-02-26 12:12:15
+3D=Y
