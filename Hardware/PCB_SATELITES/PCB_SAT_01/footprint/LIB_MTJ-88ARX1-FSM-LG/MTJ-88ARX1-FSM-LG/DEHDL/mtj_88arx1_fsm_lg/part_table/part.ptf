@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MTJ_88ARX1_FSM_LG'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Adam Tech", "MTJ-88ARX1-FSM-LG" (!) = "", "MTJ88ARX1FSMLG", "Other", "737-MTJ88ARX1FSMLG", "https://www.mouser.co.uk/ProductDetail/Adam-Tech/MTJ-88ARX1-FSM-LG?qs=HoCaDK9Nz5cwcndn7zcdzQ%3D%3D", "RJ45 Modular Jack, Shielded, Dip, Side Entry,LEDs", "https://www.arrow.com/en/products/mtj-88arx1-fsm-lg/adam-tech", "13.708 mm"
+END_PART
+
+END.
