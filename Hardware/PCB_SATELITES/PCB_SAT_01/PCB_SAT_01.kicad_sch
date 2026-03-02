@@ -3556,7 +3556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 143.51 41.91 0)
 			(effects
 				(font
@@ -3620,7 +3620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 92.71 49.53 0)
 			(effects
 				(font
@@ -3885,7 +3885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 100.33 109.22 0)
 			(effects
 				(font
@@ -3952,7 +3952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 97.79 0)
 			(effects
 				(font
@@ -4019,7 +4019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 186.69 52.07 0)
 			(effects
 				(font
@@ -4083,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 40.64 104.14 0)
 			(effects
 				(font
@@ -4150,7 +4150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.4952 34.29 0)
 			(effects
 				(font
@@ -4217,7 +4217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 195.58 49.53 0)
 			(effects
 				(font
@@ -4350,7 +4350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 195.072 36.83 90)
 			(effects
 				(font
@@ -4619,7 +4619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 36.83 90)
 			(effects
 				(font
@@ -4686,7 +4686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 83.82 114.3 0)
 			(effects
 				(font
@@ -4753,7 +4753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 187.452 36.83 90)
 			(effects
 				(font
@@ -4823,7 +4823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 153.3652 34.29 0)
 			(effects
 				(font
@@ -5022,7 +5022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 189.23 115.57 0)
 			(effects
 				(font
@@ -5089,7 +5089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.202 99.06 90)
 			(effects
 				(font
@@ -5159,7 +5159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 189.992 100.33 90)
 			(effects
 				(font
@@ -5430,7 +5430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.202 36.83 90)
 			(effects
 				(font
@@ -5497,7 +5497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 203.2 46.99 0)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -5625,7 +5625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -5689,7 +5689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 40.64 109.22 0)
 			(effects
 				(font
@@ -5888,7 +5888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 143.51 46.99 0)
 			(effects
 				(font
@@ -5955,7 +5955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.4952 96.52 0)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 83.8347 52.07 0)
 			(effects
 				(font
@@ -6089,7 +6089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 205.232 100.33 90)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MTJ88ARX1FSMLG"
+		(property "Footprint" "MTJ-88ARX1-FSM-LG:MTJ88ARX1FSMLG"
 			(at 274.32 191.44 0)
 			(effects
 				(font
@@ -6312,7 +6312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -6376,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -6443,7 +6443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.582 99.06 90)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 40.64 41.91 0)
 			(effects
 				(font
@@ -6644,7 +6644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 197.612 100.33 90)
 			(effects
 				(font
@@ -6714,7 +6714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.582 36.83 90)
 			(effects
 				(font
@@ -6781,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 204.47 110.49 0)
 			(effects
 				(font
@@ -6847,7 +6847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 202.692 36.83 90)
 			(effects
 				(font
@@ -6914,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 146.05 110.49 0)
 			(effects
 				(font
@@ -6978,7 +6978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 40.64 46.99 0)
 			(effects
 				(font
@@ -7111,7 +7111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 99.06 90)
 			(effects
 				(font
