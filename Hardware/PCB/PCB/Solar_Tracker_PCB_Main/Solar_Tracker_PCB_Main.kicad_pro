@@ -621,6 +621,10 @@
     [
       "f4a14677-32fc-462e-a162-73a0e2d9ff09",
       "IMU"
+    ],
+    [
+      "c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c",
+      "BUCK CONVERTER"
     ]
   ],
   "text_variables": {}

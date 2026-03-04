@@ -398,7 +398,7 @@
 	)
 	(symbol
 		(lib_id "MTJ-88ARX1-FSM-LG:MTJ-88ARX1-FSM-LG")
-		(at 250.19 34.29 0)
+		(at 248.92 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -407,7 +407,7 @@
 		(fields_autoplaced yes)
 		(uuid "a028fd00-46a6-43de-8828-297da8c37dc5")
 		(property "Reference" "J1"
-			(at 261.62 26.67 0)
+			(at 260.35 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +415,7 @@
 			)
 		)
 		(property "Value" "MTJ-88ARX1-FSM-LG"
-			(at 261.62 29.21 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +423,7 @@
 			)
 		)
 		(property "Footprint" "MTJ-88ARX1:MTJ88ARX1FSMLG"
-			(at 269.24 129.21 0)
+			(at 267.97 127.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -433,7 +433,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/mtj-88arx1-fsm-lg/adam-tech"
-			(at 269.24 229.21 0)
+			(at 267.97 227.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +443,7 @@
 			)
 		)
 		(property "Description" "RJ45 Modular Jack, Shielded, Dip, Side Entry,LEDs"
-			(at 250.19 34.29 0)
+			(at 248.92 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,7 +452,7 @@
 			)
 		)
 		(property "Height" "13.708"
-			(at 269.24 429.21 0)
+			(at 267.97 427.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +462,7 @@
 			)
 		)
 		(property "Mouser Part Number" "737-MTJ88ARX1FSMLG"
-			(at 269.24 529.21 0)
+			(at 267.97 527.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +472,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/MTJ-88ARX1-FSM-LG?qs=HoCaDK9Nz5cwcndn7zcdzQ%3D%3D"
-			(at 269.24 629.21 0)
+			(at 267.97 627.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +482,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Adam Tech"
-			(at 269.24 729.21 0)
+			(at 267.97 727.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -492,7 +492,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MTJ-88ARX1-FSM-LG"
-			(at 269.24 829.21 0)
+			(at 267.97 827.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,6 +590,48 @@
 			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 34.29)
+		(size 53.34 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c")
+		(property "Sheetname" "BUCK CONVERTER"
+			(at 115.57 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck.kicad_sch"
+			(at 115.57 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4"
+					(page "4")
 				)
 			)
 		)
