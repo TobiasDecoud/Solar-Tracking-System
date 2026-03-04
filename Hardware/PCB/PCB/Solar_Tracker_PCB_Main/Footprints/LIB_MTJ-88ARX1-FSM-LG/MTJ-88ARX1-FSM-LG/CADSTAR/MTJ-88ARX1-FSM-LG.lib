@@ -1,0 +1,17 @@
+.MTJ-88ARX1-FSM-LG :1 ;RJ45 Modular Jack, Shielded, Dip, Side Entry,LEDs
+MTJ88ARX1FSMLG
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=MH1 14=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10" 11="11" 12="12" 13="MH1" 14="MH2"
+*MXP 16
+*DFN MTJ-88ARX1-FSM-LG
+~!Mouser Part Number (737-MTJ88ARX1FSMLG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Adam-Tech/MTJ-88ARX1-FSM-LG?qs=HoCaDK9Nz5cwcndn7zcdzQ%3D%3D)
+~!Manufacturer_Name (Adam Tech)
+~!Manufacturer_Part_Number (MTJ-88ARX1-FSM-LG)
+~!Link Datasheet (https://www.arrow.com/en/products/mtj-88arx1-fsm-lg/adam-tech)
+~!Height (13.708mm)
+~!3D_Model (MTJ-88ARX1-FSM-LG)
+MTJ-88ARX1-FSM-LG
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

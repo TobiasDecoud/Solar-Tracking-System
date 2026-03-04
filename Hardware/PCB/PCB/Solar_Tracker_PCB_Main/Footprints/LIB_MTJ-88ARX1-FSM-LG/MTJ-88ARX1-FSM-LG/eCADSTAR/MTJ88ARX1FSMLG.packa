@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MTJ-88ARX1-FSM-LG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-08-15:13:43)
+    (mountForm default
+        (footprintRef "MTJ88ARX1FSMLG")
+        (spec "System")
+    )
+)
