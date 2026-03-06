@@ -637,8 +637,8 @@
 		)
 	)
 	(sheet
-		(at 16.51 78.74)
-		(size 44.45 48.26)
+		(at 158.75 21.59)
+		(size 44.45 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -653,7 +653,7 @@
 		)
 		(uuid "f065d8bf-f34b-491d-8721-3ae145af2fae")
 		(property "Sheetname" "RTC"
-			(at 16.51 78.0284 0)
+			(at 158.75 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +662,7 @@
 			)
 		)
 		(property "Sheetfile" "RTC.kicad_sch"
-			(at 16.51 127.5846 0)
+			(at 158.75 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
