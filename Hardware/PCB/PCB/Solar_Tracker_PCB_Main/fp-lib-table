@@ -5,4 +5,5 @@
   (lib (name "BNO085")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_BNO085/BNO085/KiCad/BNO085.pretty")(options "")(descr ""))
   (lib (name "MTJ-88ARX1")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_MTJ-88ARX1-FSM-LG/MTJ-88ARX1-FSM-LG/KiCad/MTJ-88ARX1.pretty")(options "")(descr ""))
   (lib (name "TPS54302DCT")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_TPS54302DDCT/TPS54302DDCT/KiCad/TPS54302DCT.pretty")(options "")(descr ""))
+  (lib (name "PCF2131TFY")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_PCF2131TFY/PCF2131TFY/KiCad/PCF2131TFY.pretty")(options "")(descr ""))
 )

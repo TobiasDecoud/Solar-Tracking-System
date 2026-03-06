@@ -553,8 +553,8 @@
 		)
 	)
 	(sheet
-		(at 41.91 29.21)
-		(size 44.45 43.18)
+		(at 17.78 21.59)
+		(size 44.45 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -569,7 +569,7 @@
 		)
 		(uuid "521ed49f-67a8-4f65-9cb7-064f532bae28")
 		(property "Sheetname" "MCU"
-			(at 41.91 28.4984 0)
+			(at 17.78 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,8 +577,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 41.91 72.9746 0)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 17.78 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -595,8 +595,8 @@
 		)
 	)
 	(sheet
-		(at 115.57 34.29)
-		(size 53.34 41.91)
+		(at 64.77 21.59)
+		(size 45.72 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -611,7 +611,7 @@
 		)
 		(uuid "c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c")
 		(property "Sheetname" "BUCK CONVERTER"
-			(at 115.57 33.5784 0)
+			(at 64.77 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,8 +619,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "buck.kicad_sch"
-			(at 115.57 76.7846 0)
+		(property "Sheetfile" "BUCK.kicad_sch"
+			(at 64.77 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,8 +637,50 @@
 		)
 	)
 	(sheet
-		(at 35.56 101.6)
-		(size 44.45 31.75)
+		(at 16.51 78.74)
+		(size 44.45 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f065d8bf-f34b-491d-8721-3ae145af2fae")
+		(property "Sheetname" "RTC"
+			(at 16.51 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 16.51 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 21.59)
+		(size 44.45 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -653,7 +695,7 @@
 		)
 		(uuid "f4a14677-32fc-462e-a162-73a0e2d9ff09")
 		(property "Sheetname" "IMU"
-			(at 35.56 100.8884 0)
+			(at 113.03 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +704,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 35.56 133.9346 0)
+			(at 113.03 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

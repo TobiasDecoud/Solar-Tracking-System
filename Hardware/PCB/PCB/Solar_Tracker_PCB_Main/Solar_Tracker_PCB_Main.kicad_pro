@@ -619,12 +619,16 @@
       "MCU"
     ],
     [
+      "c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c",
+      "BUCK CONVERTER"
+    ],
+    [
       "f4a14677-32fc-462e-a162-73a0e2d9ff09",
       "IMU"
     ],
     [
-      "c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c",
-      "BUCK CONVERTER"
+      "f065d8bf-f34b-491d-8721-3ae145af2fae",
+      "RTC"
     ]
   ],
   "text_variables": {}

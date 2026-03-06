@@ -782,6 +782,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "These component values follow the typical application (Figure 8-1, page 14).\nAlternative values are listed in Table 8-2 (page 18) for 3.3 V output.\nThe typical voltage refence (Fb) is 0.596V.\n\nSpecs:\n	Use X7R ceramic capacitors\n	Use resistors with 1% maximum tolerance\n	Use ferrite-core inductors\n\n "
+		(exclude_from_sim no)
+		(at 31.75 139.7 0)
+		(size 85.09 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "be223324-c318-4ca2-ace4-236f840d7407")
+	)
 	(junction
 		(at 179.07 80.01)
 		(diameter 0)
@@ -1664,7 +1684,7 @@
 			(uuid "7a1475bb-fe9a-44d6-b4a5-93871b4e7122")
 		)
 		(instances
-			(project ""
+			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
 					(reference "IC2")
 					(unit 1)
@@ -1804,7 +1824,7 @@
 			(uuid "3bde8679-0fe1-44fd-9d4d-539958d5eb4e")
 		)
 		(instances
-			(project ""
+			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
 					(reference "R6")
 					(unit 1)
@@ -1870,7 +1890,7 @@
 			(uuid "75cad224-683e-4cbe-ae03-a7ba1ad1befe")
 		)
 		(instances
-			(project ""
+			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
 					(reference "#PWR013")
 					(unit 1)
@@ -2216,7 +2236,7 @@
 			(uuid "4519474c-8010-4cfb-a7c9-4c30ae666f02")
 		)
 		(instances
-			(project ""
+			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
 					(reference "L1")
 					(unit 1)
@@ -2448,7 +2468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75p"
+		(property "Value" "47p"
 			(at 173.736 76.962 0)
 			(effects
 				(font
