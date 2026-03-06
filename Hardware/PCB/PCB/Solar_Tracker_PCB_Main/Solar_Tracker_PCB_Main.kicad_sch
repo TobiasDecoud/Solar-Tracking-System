@@ -396,6 +396,62 @@
 		)
 		(uuid "0e816687-8e85-4afe-8f46-b916e9a59976")
 	)
+	(no_connect
+		(at 248.92 38.1)
+		(uuid "02616536-3d8f-4296-b0eb-90f145db850b")
+	)
+	(no_connect
+		(at 271.78 33.02)
+		(uuid "118e30c9-fc8d-4283-9480-094660c5cf18")
+	)
+	(no_connect
+		(at 248.92 35.56)
+		(uuid "1e819d06-68e2-477e-a72a-4f2f0f7c2961")
+	)
+	(no_connect
+		(at 248.92 48.26)
+		(uuid "29f2021f-d035-43a0-8f95-f87ffa4ed8c6")
+	)
+	(no_connect
+		(at 271.78 38.1)
+		(uuid "74d0201f-dcaa-4719-b8e9-54805e12495f")
+	)
+	(no_connect
+		(at 248.92 43.18)
+		(uuid "8970a4db-6cd5-44f5-b4d9-5c3647227e46")
+	)
+	(no_connect
+		(at 271.78 40.64)
+		(uuid "8e9d1b8d-202d-4d75-b8e7-26ae968517c7")
+	)
+	(no_connect
+		(at 271.78 35.56)
+		(uuid "958bbc4d-ea36-43f0-a6af-ded178d917e7")
+	)
+	(no_connect
+		(at 248.92 33.02)
+		(uuid "96e46160-47a7-444e-a0af-fff748ed81c0")
+	)
+	(no_connect
+		(at 271.78 48.26)
+		(uuid "d6109eaf-243b-4146-a50a-d7bc0bff2f20")
+	)
+	(no_connect
+		(at 271.78 45.72)
+		(uuid "d7ee953d-0f1c-442f-b985-33a11e8e6ba6")
+	)
+	(no_connect
+		(at 248.92 40.64)
+		(uuid "da82a22e-0eb3-47aa-b207-83c9fe509c77")
+	)
+	(no_connect
+		(at 248.92 45.72)
+		(uuid "e4c712ff-9a25-4a93-a3ce-76e091a3c466")
+	)
+	(no_connect
+		(at 271.78 43.18)
+		(uuid "ee5e9e81-6f7a-4424-8ed8-5e6aa36268c9")
+	)
 	(symbol
 		(lib_id "MTJ-88ARX1-FSM-LG:MTJ-88ARX1-FSM-LG")
 		(at 248.92 33.02 0)
