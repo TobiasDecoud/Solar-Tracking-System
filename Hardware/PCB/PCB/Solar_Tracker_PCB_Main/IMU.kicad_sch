@@ -1661,7 +1661,7 @@
 		)
 		(uuid "28e18ce5-9710-4543-8903-3491f48a590c")
 	)
-	(text_box "Using a crystal with tolerance 50ppm with 12.5pF (CL) capacitor loading.\nPage 10\n\nCL = (C1.C2)/(C1+C2) + Cpcb"
+	(text_box "Using a crystal with tolerance 50ppm with 12.5pF (CL) capacitor loading.\nPage 10\n"
 		(exclude_from_sim no)
 		(at 12.6999 52.0699 0)
 		(size 46.99 12.7)
@@ -1889,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 41.91) (xy 157.48 44.45)
+			(xy 156.21 33.02) (xy 156.21 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 26.67) (xy 45.72 26.67)
+			(xy 38.1 26.67) (xy 45.72 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 26.67) (xy 24.13 26.67)
+			(xy 30.48 26.67) (xy 24.13 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 33.02) (xy 157.48 36.83)
+			(xy 156.21 24.13) (xy 156.21 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2288,7 +2288,7 @@
 		(uuid "857d0cc9-0d73-4238-a535-d766d21cc4af")
 	)
 	(label "CAP"
-		(at 157.48 33.02 0)
+		(at 156.21 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2675,7 +2675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k"
 			(at 96.52 35.5599 0)
 			(effects
 				(font
@@ -3094,7 +3094,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 157.48 39.37 0)
+		(at 156.21 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3103,7 +3103,7 @@
 		(fields_autoplaced yes)
 		(uuid "67ccbd8d-8b03-4c22-8880-db7f436f0462")
 		(property "Reference" "C3"
-			(at 160.02 37.6681 0)
+			(at 158.75 28.7781 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3112,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 160.02 40.2081 0)
+			(at 158.75 31.3181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 39.37 0)
+			(at 156.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 39.37 0)
+			(at 156.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3139,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 157.48 39.37 0)
+			(at 156.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 26.67 33.8581 0)
 			(effects
 				(font
@@ -3465,7 +3465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k"
 			(at 87.63 35.5599 0)
 			(effects
 				(font
@@ -3670,7 +3670,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7c5a795-b2d3-4292-a80e-33c1e1ddc1be")
+		(uuid "a7c5a795-b2d3-4292-a80e-33c1e1ddc1bf")
 		(property "Reference" "#PWR010"
 			(at 93.98 124.46 0)
 			(effects
@@ -3716,7 +3716,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "630557c5-6e05-4cdb-8c34-a13c24ef98a2")
+			(uuid "630557c5-6e05-4cdb-8c34-a13c24ef98a3")
 		)
 		(instances
 			(project "Solar_Tracker_PCB_Main"
@@ -3823,7 +3823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 48.26 33.8581 0)
 			(effects
 				(font
@@ -3948,7 +3948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 44.45 0)
+		(at 156.21 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3957,7 +3957,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf7dc0ce-e825-46ac-9214-3d946f6c63f4")
 		(property "Reference" "#PWR04"
-			(at 157.48 50.8 0)
+			(at 156.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +3966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 49.53 0)
+			(at 156.21 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +3974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 44.45 0)
+			(at 156.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +3983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 44.45 0)
+			(at 156.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +3992,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 44.45 0)
+			(at 156.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4226,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 35.56 26.67 0)
+		(at 34.29 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4235,7 +4235,7 @@
 		(fields_autoplaced yes)
 		(uuid "c14931e7-091c-426b-8bc1-c197c04af5a7")
 		(property "Reference" "Y1"
-			(at 35.56 19.05 0)
+			(at 34.29 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4243,7 @@
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 35.56 21.59 0)
+			(at 34.29 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 26.67 0)
+			(at 34.29 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 26.67 0)
+			(at 34.29 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4269,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 35.56 26.67 0)
+			(at 34.29 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

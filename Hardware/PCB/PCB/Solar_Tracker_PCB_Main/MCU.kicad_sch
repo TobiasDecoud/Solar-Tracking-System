@@ -1966,16 +1966,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 22.86) (xy 97.79 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc1fb9a-470e-4871-a27a-06463d92fabd")
-	)
-	(wire
-		(pts
 			(xy 129.54 132.08) (xy 121.92 132.08)
 		)
 		(stroke
@@ -1986,7 +1976,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 22.86) (xy 88.9 22.86)
+			(xy 86.36 22.86) (xy 97.79 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2133,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "67b721fc-e03d-4e82-a2f6-9f85eaff94cd")
+	)
+	(wire
+		(pts
+			(xy 30.48 34.29) (xy 30.48 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d40e6e8-8934-4183-b6f4-d516ae340a24")
 	)
 	(wire
 		(pts
@@ -3753,7 +3753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 33.02 0)
+		(at 30.48 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3762,7 +3762,7 @@
 		(fields_autoplaced yes)
 		(uuid "95d8d793-eaa6-4204-add5-0de53e520f13")
 		(property "Reference" "#PWR042"
-			(at 30.48 39.37 0)
+			(at 30.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3771,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 38.1 0)
+			(at 30.48 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +3779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 33.02 0)
+			(at 30.48 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 33.02 0)
+			(at 30.48 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 33.02 0)
+			(at 30.48 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,73 +3812,6 @@
 			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9824bd29-0887-4a8d-96bb-1c1a5acc3990")
-		(property "Reference" "R16"
-			(at 92.71 18.796 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 92.71 20.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 24.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "44e11e05-1fcf-42de-a676-3681c5a40157")
-		)
-		(pin "1"
-			(uuid "078f00b1-b17d-4b7b-b96c-478036950930")
-		)
-		(instances
-			(project "Solar_Tracker_PCB_Main"
-				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
-					(reference "R16")
 					(unit 1)
 				)
 			)
