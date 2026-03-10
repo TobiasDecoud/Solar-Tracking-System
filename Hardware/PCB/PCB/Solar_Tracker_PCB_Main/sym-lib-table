@@ -6,4 +6,5 @@
   (lib (name "MTJ-88ARX1-FSM-LG")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_MTJ-88ARX1-FSM-LG/MTJ-88ARX1-FSM-LG/KiCad/MTJ-88ARX1-FSM-LG.kicad_sym")(options "")(descr ""))
   (lib (name "TPS54302DDCT")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_TPS54302DDCT/TPS54302DDCT/KiCad/TPS54302DDCT.kicad_sym")(options "")(descr ""))
   (lib (name "PCF2131TFY")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_PCF2131TFY/PCF2131TFY/KiCad/PCF2131TFY.kicad_sym")(options "")(descr ""))
+  (lib (name "ABS07-32_768KHZ-T")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_ABS07-32.768KHZ-T/ABS07-32.768KHZ-T/KiCad/ABS07-32_768KHZ-T.kicad_sym")(options "")(descr ""))
 )
