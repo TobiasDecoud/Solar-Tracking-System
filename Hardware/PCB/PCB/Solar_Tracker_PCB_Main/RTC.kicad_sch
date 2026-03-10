@@ -1488,16 +1488,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 22.86) (xy 85.09 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151c5c38-8306-4774-b7e9-3d4c69b4e43f")
-	)
-	(wire
-		(pts
 			(xy 34.29 20.32) (xy 30.48 20.32)
 		)
 		(stroke
@@ -1675,6 +1665,16 @@
 			(type default)
 		)
 		(uuid "82981255-0d22-49ae-b4fd-378ae0e22c8e")
+	)
+	(wire
+		(pts
+			(xy 85.09 17.78) (xy 85.09 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887a0204-dacd-46d4-995f-f33927fd5a47")
 	)
 	(wire
 		(pts
@@ -3097,7 +3097,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 85.09 25.4 180)
+		(at 85.09 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3106,25 +3106,25 @@
 		(fields_autoplaced yes)
 		(uuid "d779c00b-81d5-403e-9a70-13fd40a47601")
 		(property "Reference" "BT1"
-			(at 88.9 25.9714 0)
+			(at 88.9 24.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "3.3"
-			(at 88.9 28.5114 0)
+			(at 88.9 27.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 26.924 90)
+			(at 85.09 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 26.924 90)
+			(at 85.09 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3142,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 85.09 25.4 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3151,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 85.09 25.4 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3160,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 85.09 25.4 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3169,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 85.09 25.4 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
