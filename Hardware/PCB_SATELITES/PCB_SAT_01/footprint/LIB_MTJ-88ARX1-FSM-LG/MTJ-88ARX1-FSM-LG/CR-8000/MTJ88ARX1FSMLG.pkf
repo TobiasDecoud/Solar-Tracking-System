@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MTJ88ARX1FSMLG"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MTJ88ARX1FSMLG")
+        (spec "default")
+    )
+)
