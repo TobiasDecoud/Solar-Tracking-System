@@ -9,4 +9,7 @@
   (lib (name "ABS07")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_ABS07-32.768KHZ-T/ABS07-32.768KHZ-T/KiCad/ABS07.pretty")(options "")(descr ""))
   (lib (name "USB4940")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_USB4940-00-A/USB4940-00-A/KiCad/USB4940.pretty")(options "")(descr ""))
   (lib (name "LM1117MPX3V3")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_LM1117MPX-3.3_NOPB/LM1117MPX-3.3_NOPB/KiCad/LM1117MPX3V3.pretty")(options "")(descr ""))
+  (lib (name "BAT-HLD")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_BAT-HLD-013-SMT-TR/BAT-HLD-013-SMT-TR/KiCad/BAT-HLD.pretty")(options "")(descr ""))
+  (lib (name "1729076")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_1729076/1729076/KiCad/1729076.pretty")(options "")(descr ""))
+  (lib (name "1977223")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_1977223-1/1977223-1/KiCad/1977223.pretty")(options "")(descr ""))
 )

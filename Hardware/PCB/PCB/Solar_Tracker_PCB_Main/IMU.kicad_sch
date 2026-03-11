@@ -1790,6 +1790,10 @@
 		(uuid "5130d244-3ffd-4607-b1bd-108540cec66e")
 	)
 	(no_connect
+		(at 33.02 124.46)
+		(uuid "55db6c94-1fe3-46e1-a994-51e45b89de37")
+	)
+	(no_connect
 		(at 87.63 114.3)
 		(uuid "60b09e7f-7514-4096-bee9-0e8e4f6eee38")
 	)
@@ -2457,28 +2461,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IMU_CLKSEL0"
-		(shape input)
-		(at 33.02 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4115227-afe3-42bd-b08d-e6d6f6037b31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.5163 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)

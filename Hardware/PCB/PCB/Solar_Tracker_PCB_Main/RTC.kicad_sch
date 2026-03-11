@@ -5,54 +5,49 @@
 	(uuid "4888ad15-5164-4158-89fa-6dd6553423e5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "BAT-HLD-013-SMT-TR:BAT-HLD-013-SMT-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+			(property "Value" "BAT-HLD-013-SMT-TR"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
+			(property "Footprint" "BATHLD013SMTTR"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
+			(property "Datasheet" "https://www.te.com/en/product-BAT-HLD-013-SMT-TR.html"
+				(at 16.51 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-cell battery"
+			(property "Description" "CR2032 Battery Holder, 1 Position, Horizontal, Nickel (Ni)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,118 +56,71 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
+			(property "Height" "6.5"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
+			(property "Mouser Part Number" "712-BAT-HLD-013SMTTR"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-013-SMT-TR?qs=4ASt3YYao0UKhYWrBts7tw%3D%3D"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Battery_Cell_0_1"
+			(property "Manufacturer_Part_Number" "BAT-HLD-013-SMT-TR"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BAT-HLD-013-SMT-TR_1_1"
 				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
+					(at 0 0 0)
+					(length 5.08)
 					(name "+"
 						(effects
 							(font
@@ -189,8 +137,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
+					(at 0 -2.54 0)
+					(length 5.08)
 					(name "-"
 						(effects
 							(font
@@ -1284,7 +1232,7 @@
 	)
 	(rectangle
 		(start 66.04 12.7)
-		(end 95.25 53.34)
+		(end 107.95 53.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -1307,7 +1255,7 @@
 		(uuid 52d0ecb9-624e-4330-9875-f52ac8cff412)
 	)
 	(rectangle
-		(start 95.25 12.7)
+		(start 107.95 12.7)
 		(end 163.83 53.34)
 		(stroke
 			(width 0)
@@ -1351,7 +1299,7 @@
 	(text_box "VBAT is the battery backup supply."
 		(exclude_from_sim no)
 		(at 66.04 45.72 0)
-		(size 29.21 7.62)
+		(size 41.91 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1370,8 +1318,8 @@
 	)
 	(text_box "RPU 10KΩ is recommended."
 		(exclude_from_sim no)
-		(at 95.25 45.72 0)
-		(size 68.58 7.62)
+		(at 107.95 45.72 0)
+		(size 55.88 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1628,13 +1576,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 30.48) (xy 85.09 34.29)
+			(xy 85.09 27.94) (xy 85.09 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f08edd9-7d27-4239-90e5-8dec67dc6ee4")
+		(uuid "6fc966ca-fc7b-4ea1-b15e-5d1b586b011d")
 	)
 	(wire
 		(pts
@@ -1658,6 +1606,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 27.94) (xy 85.09 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7855c443-92c0-4ec5-b743-395a61b851c0")
+	)
+	(wire
+		(pts
 			(xy 121.92 40.64) (xy 149.86 40.64)
 		)
 		(stroke
@@ -1665,16 +1623,6 @@
 			(type default)
 		)
 		(uuid "82981255-0d22-49ae-b4fd-378ae0e22c8e")
-	)
-	(wire
-		(pts
-			(xy 85.09 17.78) (xy 85.09 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "887a0204-dacd-46d4-995f-f33927fd5a47")
 	)
 	(wire
 		(pts
@@ -1725,6 +1673,16 @@
 			(type default)
 		)
 		(uuid "b320da66-1403-4207-a800-a2ac4bdd95da")
+	)
+	(wire
+		(pts
+			(xy 85.09 17.78) (xy 85.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f4ff99-60cd-4c54-9f17-c9810de5e2d3")
 	)
 	(wire
 		(pts
@@ -1805,6 +1763,16 @@
 			(type default)
 		)
 		(uuid "e3cf9c9d-8634-40af-9605-0232468af8c9")
+	)
+	(wire
+		(pts
+			(xy 86.36 25.4) (xy 85.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebcc382-16ea-4061-b7e2-42d94f4234ef")
 	)
 	(wire
 		(pts
@@ -2410,6 +2378,129 @@
 			(project ""
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/f065d8bf-f34b-491d-8721-3ae145af2fae"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BAT-HLD-013-SMT-TR:BAT-HLD-013-SMT-TR")
+		(at 86.36 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39262e05-9b27-45c0-8372-d76cb956b173")
+		(property "Reference" "BT1"
+			(at 102.87 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT-HLD-013-SMT-TR"
+			(at 102.87 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BAT-HLD:BATHLD013SMTTR"
+			(at 102.87 120.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-BAT-HLD-013-SMT-TR.html"
+			(at 102.87 220.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CR2032 Battery Holder, 1 Position, Horizontal, Nickel (Ni)"
+			(at 86.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.5"
+			(at 102.87 420.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "712-BAT-HLD-013SMTTR"
+			(at 102.87 520.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-013-SMT-TR?qs=4ASt3YYao0UKhYWrBts7tw%3D%3D"
+			(at 102.87 620.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 102.87 720.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT-HLD-013-SMT-TR"
+			(at 102.87 820.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdb3aea6-6428-4be2-9c20-7947581d8c0a")
+		)
+		(pin "2"
+			(uuid "928e2937-3aad-4a85-8463-856ba1d80b36")
+		)
+		(instances
+			(project ""
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/f065d8bf-f34b-491d-8721-3ae145af2fae"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -3090,103 +3181,6 @@
 			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/f065d8bf-f34b-491d-8721-3ae145af2fae"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 85.09 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d779c00b-81d5-403e-9a70-13fd40a47601")
-		(property "Reference" "BT1"
-			(at 88.9 24.8284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3"
-			(at 88.9 27.3684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 85.09 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 85.09 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 85.09 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 85.09 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53a4c3aa-b4ae-419a-8c20-674c1bf7d018")
-		)
-		(pin "1"
-			(uuid "89358258-24b3-40ec-b15a-b24371bb034a")
-		)
-		(instances
-			(project ""
-				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/f065d8bf-f34b-491d-8721-3ae145af2fae"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
