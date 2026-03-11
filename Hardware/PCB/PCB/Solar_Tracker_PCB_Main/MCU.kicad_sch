@@ -3144,7 +3144,7 @@
 		(uuid "fb51712b-af8d-4d00-ab83-5cb413146196")
 	)
 	(no_connect
-		(at 229.87 113.03)
+		(at 177.8 115.57)
 		(uuid "1cabf29e-39e1-4013-873a-8adf47e2f5e1")
 	)
 	(no_connect
@@ -3152,7 +3152,7 @@
 		(uuid "36e997b3-0939-4025-a29b-65f5ea342a14")
 	)
 	(no_connect
-		(at 229.87 115.57)
+		(at 177.8 118.11)
 		(uuid "41a8b7ac-aed9-43f4-94a8-125ce7ec1dd6")
 	)
 	(no_connect
@@ -3164,7 +3164,7 @@
 		(uuid "46975f8d-844b-42a1-a849-16bdfef27cf0")
 	)
 	(no_connect
-		(at 229.87 107.95)
+		(at 177.8 110.49)
 		(uuid "46b3adb4-9c4e-4911-b2d2-c26432c595de")
 	)
 	(no_connect
@@ -3208,7 +3208,7 @@
 		(uuid "8f40c4b6-585e-41da-8009-6aafeff37c03")
 	)
 	(no_connect
-		(at 229.87 125.73)
+		(at 177.8 128.27)
 		(uuid "96a1e33b-2019-4320-9a09-fb2dfc8dd363")
 	)
 	(no_connect
@@ -3216,7 +3216,7 @@
 		(uuid "98af32f0-4097-4763-938d-46bc0fb2ed2a")
 	)
 	(no_connect
-		(at 229.87 118.11)
+		(at 177.8 120.65)
 		(uuid "9a9a07e6-97fc-4ffb-9ffb-afe19754f419")
 	)
 	(no_connect
@@ -3224,7 +3224,7 @@
 		(uuid "9b7cbfe0-e922-4033-a2e2-806223929d12")
 	)
 	(no_connect
-		(at 229.87 120.65)
+		(at 177.8 123.19)
 		(uuid "aa7384c4-d5ab-4d14-a8dd-9af392f0a734")
 	)
 	(no_connect
@@ -3244,7 +3244,7 @@
 		(uuid "c0efc044-eac1-4516-a090-4c3b905b7b15")
 	)
 	(no_connect
-		(at 229.87 123.19)
+		(at 177.8 125.73)
 		(uuid "c3e13c5c-3a14-4bcb-9cb1-18050cc99f5a")
 	)
 	(no_connect
@@ -3260,7 +3260,7 @@
 		(uuid "c7c550b2-0b66-42e3-b58f-2a1daa11c00d")
 	)
 	(no_connect
-		(at 229.87 110.49)
+		(at 177.8 113.03)
 		(uuid "d446adb8-56e5-4c87-98b5-53c394d08a98")
 	)
 	(no_connect
@@ -7712,7 +7712,7 @@
 	)
 	(symbol
 		(lib_id "1729076:1729076")
-		(at 229.87 107.95 0)
+		(at 177.8 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7721,7 +7721,7 @@
 		(fields_autoplaced yes)
 		(uuid "d765b9c0-64d9-4720-9c8f-66f7ee6e51c6")
 		(property "Reference" "J3"
-			(at 246.38 115.5699 0)
+			(at 194.31 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7730,7 +7730,7 @@
 			)
 		)
 		(property "Value" "1729076"
-			(at 246.38 118.1099 0)
+			(at 194.31 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7739,7 +7739,7 @@
 			)
 		)
 		(property "Footprint" "1729076:1729076"
-			(at 246.38 202.87 0)
+			(at 194.31 205.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +7749,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-8-1729076?type=pdf"
-			(at 246.38 302.87 0)
+			(at 194.31 305.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +7759,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 8, Number of rows: 1, Number of positions per row: 8, product range: MKDSN 1,5, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 229.87 107.95 0)
+			(at 177.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7768,7 @@
 			)
 		)
 		(property "Height" "10.15"
-			(at 246.38 502.87 0)
+			(at 194.31 505.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7778,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1729076"
-			(at 246.38 602.87 0)
+			(at 194.31 605.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,7 +7788,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1729076?qs=zFpBqiaOpnzvURk10bgZxg%3D%3D"
-			(at 246.38 702.87 0)
+			(at 194.31 705.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +7798,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 246.38 802.87 0)
+			(at 194.31 805.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +7808,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1729076"
-			(at 246.38 902.87 0)
+			(at 194.31 905.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
