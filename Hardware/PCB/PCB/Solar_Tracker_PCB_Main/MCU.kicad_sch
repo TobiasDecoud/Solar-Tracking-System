@@ -3084,6 +3084,12 @@
 		(uuid "5bcf8938-20a9-4f80-b9f2-5d695b061ff8")
 	)
 	(junction
+		(at 251.46 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69ac52bd-4e0e-46fc-a2db-ba62be99e17c")
+	)
+	(junction
 		(at 20.32 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3106,6 +3112,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71997233-f60f-44c3-9eab-d9abb64f90a3")
+	)
+	(junction
+		(at 219.71 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e433a0b-30ee-42f4-a9a6-5103a7a68c1b")
 	)
 	(junction
 		(at 77.47 17.78)
@@ -3144,16 +3156,8 @@
 		(uuid "fb51712b-af8d-4d00-ab83-5cb413146196")
 	)
 	(no_connect
-		(at 177.8 115.57)
-		(uuid "1cabf29e-39e1-4013-873a-8adf47e2f5e1")
-	)
-	(no_connect
 		(at 45.72 81.28)
 		(uuid "36e997b3-0939-4025-a29b-65f5ea342a14")
-	)
-	(no_connect
-		(at 177.8 118.11)
-		(uuid "41a8b7ac-aed9-43f4-94a8-125ce7ec1dd6")
 	)
 	(no_connect
 		(at 78.74 101.6)
@@ -3162,10 +3166,6 @@
 	(no_connect
 		(at 45.72 91.44)
 		(uuid "46975f8d-844b-42a1-a849-16bdfef27cf0")
-	)
-	(no_connect
-		(at 177.8 110.49)
-		(uuid "46b3adb4-9c4e-4911-b2d2-c26432c595de")
 	)
 	(no_connect
 		(at 78.74 78.74)
@@ -3208,24 +3208,12 @@
 		(uuid "8f40c4b6-585e-41da-8009-6aafeff37c03")
 	)
 	(no_connect
-		(at 177.8 128.27)
-		(uuid "96a1e33b-2019-4320-9a09-fb2dfc8dd363")
-	)
-	(no_connect
 		(at 45.72 124.46)
 		(uuid "98af32f0-4097-4763-938d-46bc0fb2ed2a")
 	)
 	(no_connect
-		(at 177.8 120.65)
-		(uuid "9a9a07e6-97fc-4ffb-9ffb-afe19754f419")
-	)
-	(no_connect
 		(at 45.72 83.82)
 		(uuid "9b7cbfe0-e922-4033-a2e2-806223929d12")
-	)
-	(no_connect
-		(at 177.8 123.19)
-		(uuid "aa7384c4-d5ab-4d14-a8dd-9af392f0a734")
 	)
 	(no_connect
 		(at 45.72 99.06)
@@ -3244,10 +3232,6 @@
 		(uuid "c0efc044-eac1-4516-a090-4c3b905b7b15")
 	)
 	(no_connect
-		(at 177.8 125.73)
-		(uuid "c3e13c5c-3a14-4bcb-9cb1-18050cc99f5a")
-	)
-	(no_connect
 		(at 78.74 81.28)
 		(uuid "c43d30d5-e53a-41f9-b6d3-771b2650ae75")
 	)
@@ -3258,10 +3242,6 @@
 	(no_connect
 		(at 45.72 88.9)
 		(uuid "c7c550b2-0b66-42e3-b58f-2a1daa11c00d")
-	)
-	(no_connect
-		(at 177.8 113.03)
-		(uuid "d446adb8-56e5-4c87-98b5-53c394d08a98")
 	)
 	(no_connect
 		(at 45.72 119.38)
@@ -3329,6 +3309,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 139.7) (xy 251.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15beead3-c9af-4854-9193-bd2772f15240")
+	)
+	(wire
+		(pts
 			(xy 83.82 17.78) (xy 83.82 16.51)
 		)
 		(stroke
@@ -3336,6 +3326,16 @@
 			(type default)
 		)
 		(uuid "163bd469-7b57-4c0b-b2f5-cdefe883269b")
+	)
+	(wire
+		(pts
+			(xy 242.57 142.24) (xy 242.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190d49b3-8845-4385-b9b2-6414967a7513")
 	)
 	(wire
 		(pts
@@ -3376,6 +3376,16 @@
 			(type default)
 		)
 		(uuid "241b2d11-bd8f-45d8-b9b8-7fa7b60a99ae")
+	)
+	(wire
+		(pts
+			(xy 234.95 120.65) (xy 246.38 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d824fe-cc3b-47f0-9c2a-25162e9cace0")
 	)
 	(wire
 		(pts
@@ -3579,6 +3589,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 138.43) (xy 251.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e751488-2eb9-42fa-b1b5-5b892175839a")
+	)
+	(wire
+		(pts
 			(xy 252.73 82.55) (xy 256.54 82.55)
 		)
 		(stroke
@@ -3619,6 +3639,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 139.7) (xy 251.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67134da4-e96a-4dfb-9340-2ab3d65b1714")
+	)
+	(wire
+		(pts
+			(xy 260.35 142.24) (xy 260.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6755a346-9907-4aeb-b6ca-f10f472cdd89")
+	)
+	(wire
+		(pts
 			(xy 30.48 34.29) (xy 30.48 33.02)
 		)
 		(stroke
@@ -3626,6 +3666,16 @@
 			(type default)
 		)
 		(uuid "6d40e6e8-8934-4183-b6f4-d516ae340a24")
+	)
+	(wire
+		(pts
+			(xy 234.95 115.57) (xy 246.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8c0636-3fe5-4749-b409-ca16722da4e9")
 	)
 	(wire
 		(pts
@@ -3656,6 +3706,26 @@
 			(type default)
 		)
 		(uuid "7246013b-0b06-4909-9067-60751fd6233f")
+	)
+	(wire
+		(pts
+			(xy 260.35 149.86) (xy 260.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d7f5a9-2783-49e2-a6b3-9b06410df996")
+	)
+	(wire
+		(pts
+			(xy 242.57 139.7) (xy 251.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73163066-6342-4d55-9249-4a955efe378c")
 	)
 	(wire
 		(pts
@@ -3709,6 +3779,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 149.86) (xy 242.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd2f503-f56b-4648-acb5-7152e04bb0df")
+	)
+	(wire
+		(pts
 			(xy 252.73 74.93) (xy 256.54 74.93)
 		)
 		(stroke
@@ -3736,6 +3816,16 @@
 			(type default)
 		)
 		(uuid "88c83413-5685-473d-b8ac-5d94ae0157fd")
+	)
+	(wire
+		(pts
+			(xy 219.71 110.49) (xy 246.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb7340b-ee94-48ce-977d-a9fa74a5c81c")
 	)
 	(wire
 		(pts
@@ -3809,6 +3899,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 149.86) (xy 251.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b188d64-91ad-4608-bd5f-1569ae31ac58")
+	)
+	(wire
+		(pts
 			(xy 78.74 91.44) (xy 82.55 91.44)
 		)
 		(stroke
@@ -3866,6 +3966,16 @@
 			(type default)
 		)
 		(uuid "a796e687-df81-4c1b-a636-112ad69c0795")
+	)
+	(wire
+		(pts
+			(xy 234.95 125.73) (xy 246.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f10f0d-e9f4-472a-90e1-672bd872bb1f")
 	)
 	(wire
 		(pts
@@ -4109,6 +4219,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 109.22) (xy 219.71 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d4a7e8-ba31-4aba-a1e7-e5d9890d647c")
+	)
+	(wire
+		(pts
 			(xy 59.69 27.94) (xy 62.23 27.94)
 		)
 		(stroke
@@ -4221,6 +4341,72 @@
 			)
 		)
 	)
+	(global_label "SL_SCL"
+		(shape input)
+		(at 242.57 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24985add-4bb8-4c5d-85b9-45b8012fcba8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 162.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SL_SDA"
+		(shape input)
+		(at 234.95 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31a0bf6f-c0d6-4e7f-84a1-8b1a714dea7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.1915 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SL_SDA"
+		(shape input)
+		(at 251.46 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36a0f556-f7e9-4974-b7fd-3dd98f6de0ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 162.1585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RTC_SCL"
 		(shape input)
 		(at 40.64 129.54 180)
@@ -4309,6 +4495,28 @@
 			)
 		)
 	)
+	(global_label "SL_INT"
+		(shape input)
+		(at 234.95 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93de84a9-2dbe-4157-896d-923bfd0dab5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.8567 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IMU_SDA"
 		(shape input)
 		(at 82.55 91.44 0)
@@ -4327,6 +4535,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SL_SCL"
+		(shape input)
+		(at 234.95 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b81140a0-9306-42a1-9cb4-3f04d1bac6bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.252 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4416,6 +4646,98 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "SL_INT"
+		(shape input)
+		(at 260.35 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe0c09a7-8c4a-49b6-a3cd-b8f7a366837e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 161.4933 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 251.46 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01052218-e1be-45c4-a7d7-b940c713e1e4")
+		(property "Reference" "R19"
+			(at 254 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 254 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 249.682 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5d9e969-ed22-4b65-a763-a3bec77372d5")
+		)
+		(pin "2"
+			(uuid "03580024-161a-41c2-a162-b6d5b160ca94")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "R19")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4555,6 +4877,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 246.38 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd62482-4516-4477-b78f-8fe2370bb87b")
+		(property "Reference" "#PWR065"
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420d03b7-e1f6-4b62-92cb-ca0412d711be")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 86.36 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4615,6 +5004,72 @@
 			(project ""
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12d65023-99c2-4f66-a23a-9f0b40eceecf")
+		(property "Reference" "#PWR067"
+			(at 219.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00e85b0b-48b1-4dda-bdad-4516cc165b9a")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5023,6 +5478,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 246.38 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28aced30-81cd-4f4a-8cb3-9aad1baf47d9")
+		(property "Reference" "#PWR063"
+			(at 240.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e57769-aa95-485f-a707-3ddfc6bb5bcc")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 54.61 27.94 90)
 		(unit 1)
@@ -5084,6 +5606,73 @@
 			(project ""
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bad4c7c-0bb6-4685-a6fb-5055b10475e4")
+		(property "Reference" "#PWR064"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab701a5-aa71-49a2-b632-a2b037a41eaa")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5686,6 +6275,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 242.57 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a3436bc-e845-429f-82d3-ba2c08682f6e")
+		(property "Reference" "R11"
+			(at 245.11 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 245.11 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 240.792 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8001bfb8-7882-4857-9e01-d8941b7b8867")
+		)
+		(pin "2"
+			(uuid "00c16c87-2eaf-4fab-8ad7-669b97728123")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 54.61 33.02 270)
 		(unit 1)
@@ -5955,6 +6614,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 246.38 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b498d3b-9b42-470f-b16f-e943f4af34e5")
+		(property "Reference" "#PWR062"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "080efc49-7eea-46ea-b010-473a8adb1a2d")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM1117MPX-3_3_NOPB:LM1117MPX-3.3_NOPB")
 		(at 223.52 24.13 0)
 		(unit 1)
@@ -6142,6 +6868,72 @@
 			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 251.46 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68cb44b0-7528-44ec-ba81-24f31a8da547")
+		(property "Reference" "#PWR068"
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a7b13ba-efc0-457f-87ce-f01870e34935")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -6676,6 +7468,76 @@
 			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 260.35 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d0210eb-93d4-4de1-83e3-1e639118b625")
+		(property "Reference" "R20"
+			(at 262.89 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 262.89 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 258.572 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5627a3dd-27c6-440b-b233-4a68e9efe116")
+		)
+		(pin "2"
+			(uuid "d446dd75-612e-46a1-831b-5b53e77b2b31")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7712,7 +8574,7 @@
 	)
 	(symbol
 		(lib_id "1729076:1729076")
-		(at 177.8 110.49 0)
+		(at 246.38 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7721,7 +8583,7 @@
 		(fields_autoplaced yes)
 		(uuid "d765b9c0-64d9-4720-9c8f-66f7ee6e51c6")
 		(property "Reference" "J3"
-			(at 194.31 118.1099 0)
+			(at 262.89 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7730,7 +8592,7 @@
 			)
 		)
 		(property "Value" "1729076"
-			(at 194.31 120.6499 0)
+			(at 262.89 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7739,7 +8601,7 @@
 			)
 		)
 		(property "Footprint" "1729076:1729076"
-			(at 194.31 205.41 0)
+			(at 262.89 205.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +8611,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-8-1729076?type=pdf"
-			(at 194.31 305.41 0)
+			(at 262.89 305.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +8621,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 8, Number of rows: 1, Number of positions per row: 8, product range: MKDSN 1,5, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 177.8 110.49 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +8630,7 @@
 			)
 		)
 		(property "Height" "10.15"
-			(at 194.31 505.41 0)
+			(at 262.89 505.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +8640,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1729076"
-			(at 194.31 605.41 0)
+			(at 262.89 605.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,7 +8650,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1729076?qs=zFpBqiaOpnzvURk10bgZxg%3D%3D"
-			(at 194.31 705.41 0)
+			(at 262.89 705.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +8660,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 194.31 805.41 0)
+			(at 262.89 805.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +8670,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1729076"
-			(at 194.31 905.41 0)
+			(at 262.89 905.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,6 +9046,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 219.71 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a600a6-7302-447a-9e7c-531feecbc2ae")
+		(property "Reference" "#PWR066"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba9b9857-973d-4078-b24c-83062e86b5ce")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1977223-1:1977223-1")
 		(at 74.93 48.26 90)
 		(unit 1)
@@ -8307,6 +9235,75 @@
 			(project ""
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f386283f-9eab-4c54-b461-7f1127f860e9")
+		(property "Reference" "C22"
+			(at 212.598 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 213.106 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 220.6752 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a7aa8e0-5579-4f55-80a5-0167ff2876a5")
+		)
+		(pin "1"
+			(uuid "3ab40e59-dd72-4b4f-aa9d-fee679f82e22")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "C22")
 					(unit 1)
 				)
 			)
