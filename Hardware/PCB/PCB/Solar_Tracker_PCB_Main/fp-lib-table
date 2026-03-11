@@ -8,4 +8,5 @@
   (lib (name "PCF2131TFY")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_PCF2131TFY/PCF2131TFY/KiCad/PCF2131TFY.pretty")(options "")(descr ""))
   (lib (name "ABS07")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_ABS07-32.768KHZ-T/ABS07-32.768KHZ-T/KiCad/ABS07.pretty")(options "")(descr ""))
   (lib (name "USB4940")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_USB4940-00-A/USB4940-00-A/KiCad/USB4940.pretty")(options "")(descr ""))
+  (lib (name "LM1117MPX3V3")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_LM1117MPX-3.3_NOPB/LM1117MPX-3.3_NOPB/KiCad/LM1117MPX3V3.pretty")(options "")(descr ""))
 )
