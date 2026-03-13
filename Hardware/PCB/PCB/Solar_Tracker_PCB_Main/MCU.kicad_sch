@@ -4607,7 +4607,7 @@
 	)
 	(global_label "J6_4"
 		(shape input)
-		(at 146.05 173.99 180)
+		(at 149.86 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4617,7 +4617,7 @@
 		)
 		(uuid "3027a211-277c-4c82-a3d5-7935c79d77c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7106 173.99 0)
+			(at 142.5206 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4739,7 @@
 	)
 	(global_label "J6_5"
 		(shape input)
-		(at 146.05 176.53 180)
+		(at 149.86 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4749,7 +4749,7 @@
 		)
 		(uuid "42a88cbb-2dae-4c76-98a5-073ccd08021c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7106 176.53 0)
+			(at 142.5206 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4937,7 @@
 	)
 	(global_label "J6_7"
 		(shape input)
-		(at 146.05 181.61 180)
+		(at 149.86 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4947,7 +4947,7 @@
 		)
 		(uuid "6f9599e2-cff4-4224-a154-0cbd325f1fde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7106 181.61 0)
+			(at 142.5206 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5091,7 @@
 	)
 	(global_label "J6_1"
 		(shape input)
-		(at 146.05 166.37 180)
+		(at 149.86 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5101,7 +5101,7 @@
 		)
 		(uuid "a1b07e31-1915-4cc8-aec1-9220cc346475")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7106 166.37 0)
+			(at 142.5206 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5113,7 @@
 	)
 	(global_label "J6_2"
 		(shape input)
-		(at 146.05 168.91 180)
+		(at 149.86 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5123,7 +5123,7 @@
 		)
 		(uuid "a7122214-2452-4dc7-b4b9-370209bf411d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7106 168.91 0)
+			(at 142.5206 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +5179,7 @@
 	)
 	(global_label "J6_8"
 		(shape input)
-		(at 146.05 184.15 180)
+		(at 149.86 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5189,7 +5189,7 @@
 		)
 		(uuid "b3018d26-e675-4362-87c2-1ff2da94917f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7106 184.15 0)
+			(at 142.5206 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5311,7 @@
 	)
 	(global_label "J6_3"
 		(shape input)
-		(at 146.05 171.45 180)
+		(at 149.86 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5321,7 +5321,7 @@
 		)
 		(uuid "d949882a-4716-4767-a4a3-365f3576893a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7106 171.45 0)
+			(at 142.5206 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +5487,7 @@
 	)
 	(global_label "J6_6"
 		(shape input)
-		(at 146.05 179.07 180)
+		(at 149.86 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5497,7 +5497,7 @@
 		)
 		(uuid "f6188f95-9d32-4d99-9fb4-d9bbde37af2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7106 179.07 0)
+			(at 142.5206 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,7 +9080,7 @@
 	)
 	(symbol
 		(lib_id "1729076:1729076")
-		(at 146.05 166.37 0)
+		(at 149.86 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9089,7 +9089,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdc412bf-9b29-4d8a-94ac-48479a980b42")
 		(property "Reference" "J6"
-			(at 162.56 173.9899 0)
+			(at 166.37 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9098,7 @@
 			)
 		)
 		(property "Value" "1729076"
-			(at 162.56 176.5299 0)
+			(at 166.37 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,7 +9107,7 @@
 			)
 		)
 		(property "Footprint" "1729076:1729076"
-			(at 162.56 261.29 0)
+			(at 166.37 260.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,7 +9117,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-8-1729076?type=pdf"
-			(at 162.56 361.29 0)
+			(at 166.37 360.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,7 +9127,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 8, Number of rows: 1, Number of positions per row: 8, product range: MKDSN 1,5, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 146.05 166.37 0)
+			(at 149.86 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9136,7 @@
 			)
 		)
 		(property "Height" "10.15"
-			(at 162.56 561.29 0)
+			(at 166.37 560.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,7 +9146,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1729076"
-			(at 162.56 661.29 0)
+			(at 166.37 660.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,7 +9156,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1729076?qs=zFpBqiaOpnzvURk10bgZxg%3D%3D"
-			(at 162.56 761.29 0)
+			(at 166.37 760.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +9166,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 162.56 861.29 0)
+			(at 166.37 860.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9176,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1729076"
-			(at 162.56 961.29 0)
+			(at 166.37 960.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
