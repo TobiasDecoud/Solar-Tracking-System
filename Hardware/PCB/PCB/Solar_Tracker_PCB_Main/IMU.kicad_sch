@@ -1802,6 +1802,10 @@
 		(uuid "70824183-60b1-440d-b3cd-c1f1d3a42d03")
 	)
 	(no_connect
+		(at 36.83 134.62)
+		(uuid "9a4d4b12-7c68-4f40-bfec-bd1e12be32bd")
+	)
+	(no_connect
 		(at 62.23 162.56)
 		(uuid "a606b830-fbd8-455f-a609-e354f7f56235")
 	)
@@ -2233,16 +2237,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 134.62) (xy 36.83 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0333420-5a81-473f-8fcd-c00ae2ad7e1b")
-	)
-	(wire
-		(pts
 			(xy 64.77 162.56) (xy 64.77 165.1)
 		)
 		(stroke
@@ -2395,28 +2389,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IMU_INT"
-		(shape input)
-		(at 31.75 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49848da1-22b9-41cb-be14-eed4e44766fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.5076 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
