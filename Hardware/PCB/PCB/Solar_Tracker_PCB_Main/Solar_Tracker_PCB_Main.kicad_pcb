@@ -11521,7 +11521,7 @@
 		)
 	)
 	(gr_rect
-		(start 70.2 42.275)
+		(start 70.2 42.625)
 		(end 167.775 151.85)
 		(stroke
 			(width 0.2)
@@ -11532,7 +11532,7 @@
 		(uuid "cae9765b-fbc9-451c-8b2d-109a09424f86")
 	)
 	(gr_rect
-		(start 70.175 42.1)
+		(start 70.175 42.725)
 		(end 167.775 151.85)
 		(stroke
 			(width 0.2)
@@ -11803,82 +11803,6 @@
 		(stroke
 			(width 0.2)
 			(type solid)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.Cu")
-		(uuid "74e41812-53c3-4ce9-840f-ec01876ad0f4")
-		(pts
-			(xy 70.45 141.28) (xy 166.2 141.28)
-		)
-		(height 19.095)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "95.75"
-			(at 118.325 158.575 0)
-			(layer "F.Cu")
-			(uuid "74e41812-53c3-4ce9-840f-ec01876ad0f4")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.Cu")
-		(uuid "bba27a99-d0e5-4e74-afa8-f2631538603a")
-		(pts
-			(xy 166.2 44.505) (xy 166.2 141.28)
-		)
-		(height 24.125)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "96.775"
-			(at 188.525 92.8925 90)
-			(layer "F.Cu")
-			(uuid "bba27a99-d0e5-4e74-afa8-f2631538603a")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
 		)
 	)
 	(segment
@@ -17354,7 +17278,7 @@
 		)
 		(polygon
 			(pts
-				(xy 167.775 42.275) (xy 167.775 151.85) (xy 70.2 151.85) (xy 70.2 42.275)
+				(xy 167.8 42.25) (xy 167.775 151.85) (xy 70.2 151.85) (xy 70.225 42.25)
 			)
 		)
 		(filled_polygon
@@ -21801,12 +21725,13 @@
 	)
 	(group ""
 		(uuid "5af14c8c-c510-4fcd-8f11-1af699f2b17b")
-		(members "04c22879-db77-4b63-a65a-1f863db2020d" "0618f6b0-f72e-4e3b-b519-2c9e71eb2e56"
-			"08c53364-0eac-467c-a7ab-e0ea55d07873" "0b11e866-985e-4898-818a-00ab96201ad0"
-			"0b3e472a-6a96-44e0-8158-b76b580d3474" "0f61e8d9-3ef4-4875-89a0-460869726fc7"
-			"147a34e4-ae5b-42da-afcb-a7ad27fb27d1" "16d129d7-1c62-4cb9-9bdc-d0ee2c2612b9"
-			"1aaf5318-1da3-41ab-87cc-871073ab7f57" "1dcaff3c-fc3f-47c1-9207-324a207cb98a"
-			"1f3dabea-3d7c-4a11-ad68-07ee6af96a0b" "2043987b-283f-4c78-9b41-7015f40d83cc"
+		(members "04495f1d-30bb-4ae5-8bd0-68ba9319db40" "04c22879-db77-4b63-a65a-1f863db2020d"
+			"0618f6b0-f72e-4e3b-b519-2c9e71eb2e56" "08c53364-0eac-467c-a7ab-e0ea55d07873"
+			"0b11e866-985e-4898-818a-00ab96201ad0" "0b3e472a-6a96-44e0-8158-b76b580d3474"
+			"0f61e8d9-3ef4-4875-89a0-460869726fc7" "147a34e4-ae5b-42da-afcb-a7ad27fb27d1"
+			"16d129d7-1c62-4cb9-9bdc-d0ee2c2612b9" "1aaf5318-1da3-41ab-87cc-871073ab7f57"
+			"1dcaff3c-fc3f-47c1-9207-324a207cb98a" "1f3dabea-3d7c-4a11-ad68-07ee6af96a0b"
+			"2043987b-283f-4c78-9b41-7015f40d83cc" "21b0b461-5fe3-48d1-b0e7-74aca5366fbf"
 			"29753766-c1ac-4ad5-a800-1d541ef1e819" "2e7bf3a3-0646-4be8-8526-ee13891baf46"
 			"303fe887-49f4-4514-acf8-37ba3a8f4dfa" "30515357-6bf3-45a8-9f08-4571e7ff0169"
 			"309f543a-1759-4969-a3d5-c06d92786d35" "30a8c815-b383-412b-910a-043ee0f07c13"
