@@ -5,6 +5,311 @@
 	(uuid "60d7b30e-5643-438d-a205-87c018773297")
 	(paper "A4")
 	(lib_symbols
+		(symbol "DMP2045U-7:DMP2045U-7"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DMP2045U-7"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT96P240X115-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP2045U.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.15"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-DMP2045U-7"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DMP2045U-7"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DMP2045U-7_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -439,6 +744,414 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MM3Z5V6B:MM3Z5V6B"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Z"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MM3Z5V6B"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SODFL2512X90N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mm3z9v1b-d.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wide Zener Voltage Range Selection, 2.4V to 75V; VZ Tolerance Selection of +/-2% (B Series); Very Small and Thin SMD package; Matte Tin(Sn) finish, Pb Free"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "512-MM3Z5V6B"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MM3Z5V6B?qs=rXqtSHp76q4LY1TDZO3VJw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MM3Z5V6B"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MM3Z5V6B_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -2.54) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 6.096 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SBR2U30SA-13:SBR2U30SA-13"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SBR2U30SA-13"
+				(at 11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DIOM5226X230N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBR2U30SA.pdf"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rectifier Diode Super Barrier Rectifier 30V 2A 2-Pin SMA T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.3"
+				(at 11.43 -397.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-SBR2U30SA-13"
+				(at 11.43 -497.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR2U30SA-13?qs=oUsD4qhOtFzn2RwqTbZr%252Bw%3D%3D"
+				(at 11.43 -597.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 11.43 -697.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SBR2U30SA-13"
+				(at 11.43 -797.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SBR2U30SA-13_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1059,6 +1772,50 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 194.31 92.71)
+		(end 284.48 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a3e153a0-9888-4c73-918e-b1be1618f61d)
+	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 72.39 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ed9220ee-a8b0-4b14-b625-73714ea4b12b)
+	)
+	(text_box "Protección para la polaridad inversa"
+		(exclude_from_sim no)
+		(at 12.7 63.5 0)
+		(size 59.69 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "133a88a4-985d-46ac-91f6-f27f8a68fd71")
+	)
 	(text_box "These component values follow the typical application (Figure 8-1, page 14).\nAlternative values are listed in Table 8-2 (page 18) for 3.3 V output.\nThe typical voltage refence (Fb) is 0.596V.\n\nSpecs:\n	Use X7R ceramic capacitors\n	Use resistors with 1% maximum tolerance\n	Use ferrite-core inductors\n	Input Voltage range 8V to 28V (Page 14)\n\n "
 		(exclude_from_sim no)
 		(at 31.75 139.7 0)
@@ -1079,6 +1836,26 @@
 		)
 		(uuid "be223324-c318-4ca2-ace4-236f840d7407")
 	)
+	(text_box "Separar fuentes en caso de que las dos esten conectadas"
+		(exclude_from_sim no)
+		(at 194.31 92.71 0)
+		(size 90.17 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cd76b4e1-fcd4-400d-9a8c-220479e7ab09")
+	)
 	(junction
 		(at 167.64 88.9)
 		(diameter 0)
@@ -1098,6 +1875,12 @@
 		(uuid "137733da-5e48-4595-8806-5c5438283b02")
 	)
 	(junction
+		(at 33.02 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d729866-15c3-4113-b870-77c8d37436a3")
+	)
+	(junction
 		(at 86.36 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1110,10 +1893,22 @@
 		(uuid "288751f3-053f-4f72-933d-18254f0eb43d")
 	)
 	(junction
+		(at 251.46 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288e3c49-9cd5-4426-99af-c920c7be165f")
+	)
+	(junction
 		(at 175.26 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c4405d7-3b57-4c4c-adad-1fdb6206e433")
+	)
+	(junction
+		(at 227.33 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773857e4-9f49-4c03-9e44-0fee613efbb9")
 	)
 	(junction
 		(at 161.29 68.58)
@@ -1134,16 +1929,22 @@
 		(uuid "b8036a1a-9abe-483a-bbe5-3f25980c54b1")
 	)
 	(junction
-		(at 78.74 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c707d79e-507b-4d10-9627-528f2ae822da")
-	)
-	(junction
 		(at 140.97 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d77d6801-f465-427d-935f-bd8fd8c25d4e")
+	)
+	(junction
+		(at 227.33 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eae32510-49be-4734-b418-0abc6d3a8438")
+	)
+	(junction
+		(at 78.74 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2549f0d-2319-41cc-801e-85bee42ec86c")
 	)
 	(junction
 		(at 161.29 76.2)
@@ -1189,6 +1990,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 135.89) (xy 255.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15070fad-49d2-447d-a0f3-3ce872d3b498")
+	)
+	(wire
+		(pts
 			(xy 78.74 96.52) (xy 86.36 96.52)
 		)
 		(stroke
@@ -1196,6 +2007,16 @@
 			(type default)
 		)
 		(uuid "15c8fc48-c56c-45c4-8c2f-eafd00b52f8f")
+	)
+	(wire
+		(pts
+			(xy 251.46 135.89) (xy 251.46 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fec987-7417-438f-9e92-d0de37f41f22")
 	)
 	(wire
 		(pts
@@ -1239,6 +2060,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 49.53) (xy 49.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e8c4b5-63fe-4873-aedd-4e070dcdd613")
+	)
+	(wire
+		(pts
+			(xy 227.33 139.7) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3352564d-444a-41a5-b9e5-2caa65ccdbc4")
+	)
+	(wire
+		(pts
 			(xy 154.94 76.2) (xy 161.29 76.2)
 		)
 		(stroke
@@ -1249,23 +2090,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 88.9) (xy 66.04 82.55)
+			(xy 33.02 29.21) (xy 34.29 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40130f5d-655b-4921-8d1b-32f4efe02fa7")
+		(uuid "360b5d2e-3b3a-48e1-8ab4-2fc067f10689")
 	)
 	(wire
 		(pts
-			(xy 66.04 88.9) (xy 78.74 88.9)
+			(xy 251.46 109.22) (xy 251.46 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a930d48-85f5-4b7d-9cb5-b3131d4a6573")
+		(uuid "4234a41f-ab47-4b1f-9a5f-c85347cc1e5b")
 	)
 	(wire
 		(pts
@@ -1286,6 +2127,26 @@
 			(type default)
 		)
 		(uuid "5349a616-e3dd-46ab-803b-f2fa043536da")
+	)
+	(wire
+		(pts
+			(xy 33.02 44.45) (xy 41.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543b5baf-861c-4b4d-8917-2abc7f676f83")
+	)
+	(wire
+		(pts
+			(xy 29.21 44.45) (xy 33.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556e9251-dd8e-42ad-b9b4-087f0cc1126a")
 	)
 	(wire
 		(pts
@@ -1319,6 +2180,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 110.49) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a954092-ac2d-4efb-9ba6-aad41590abf2")
+	)
+	(wire
+		(pts
 			(xy 102.87 68.58) (xy 123.19 68.58)
 		)
 		(stroke
@@ -1336,6 +2207,16 @@
 			(type default)
 		)
 		(uuid "789c6aa6-542e-4fae-9629-672d1641f776")
+	)
+	(wire
+		(pts
+			(xy 36.83 29.21) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b62e8b4-ea5a-431b-888c-352ecf8c5bd6")
 	)
 	(wire
 		(pts
@@ -1359,6 +2240,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 124.46) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42bae7d-c852-48a3-a801-406180c0f9b3")
+	)
+	(wire
+		(pts
 			(xy 111.76 86.36) (xy 102.87 86.36)
 		)
 		(stroke
@@ -1369,17 +2260,27 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 82.55) (xy 63.5 88.9)
+			(xy 67.31 88.9) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aec5b10e-6420-4e96-b871-1c87643683e7")
+		(uuid "a792c772-fd51-4bae-8fde-63217a77b509")
 	)
 	(wire
 		(pts
-			(xy 175.26 68.58) (xy 187.96 68.58)
+			(xy 227.33 135.89) (xy 231.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1c3b0a-45be-4c6e-920d-cdbb9d1ee043")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 189.23 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1396,6 +2297,16 @@
 			(type default)
 		)
 		(uuid "b2f517c7-c278-4399-a8d5-3925946ab886")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 49.53 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9318005-b3a4-4380-9c90-393a5a7787b4")
 	)
 	(wire
 		(pts
@@ -1429,6 +2340,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 135.89) (xy 251.46 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3babc1-1f2f-4c85-8fee-70254d17d750")
+	)
+	(wire
+		(pts
 			(xy 86.36 88.9) (xy 100.33 88.9)
 		)
 		(stroke
@@ -1449,6 +2370,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 58.42) (xy 48.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d89349-ea6c-4c19-b7fa-3c64923577ee")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3748e8-0122-4707-a463-e9ec45ddfbc5")
+	)
+	(wire
+		(pts
 			(xy 140.97 83.82) (xy 139.7 83.82)
 		)
 		(stroke
@@ -1456,6 +2397,16 @@
 			(type default)
 		)
 		(uuid "e46ecf4b-8cc3-4b86-920f-6ec7cb0175d8")
+	)
+	(wire
+		(pts
+			(xy 33.02 44.45) (xy 33.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79cb6fa-562b-4bd3-8654-3f9cc1359e39")
 	)
 	(wire
 		(pts
@@ -1476,6 +2427,246 @@
 			(type default)
 		)
 		(uuid "f85cac35-84fa-4238-be51-84cda04e9237")
+	)
+	(wire
+		(pts
+			(xy 227.33 149.86) (xy 227.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb032b7e-6f04-4a94-a489-270a59af87dc")
+	)
+	(global_label "V_BUCK_BORNERA_3V3"
+		(shape input)
+		(at 251.46 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23691781-e328-4be5-972b-8f67cbe18c3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.7933 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_USB_3V3"
+		(shape input)
+		(at 227.33 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66028cf1-7db1-481d-86df-b9f8800e2322")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.0034 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Salida_protegida"
+		(shape input)
+		(at 49.53 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d7039e5-c7e6-4adb-b13c-f2524c7cd724")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3596 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Salida_protegida"
+		(shape input)
+		(at 67.31 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e30a5ca-afaa-4b07-aaa1-702887738bd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.4804 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_BUCK_BORNERA_3V3"
+		(shape input)
+		(at 189.23 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec099a8a-64e5-4f24-899f-4c3f4327dc98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MM3Z5V6B:MM3Z5V6B")
+		(at 48.26 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13ce02d6-9dc6-4e70-bfbd-47f73bb3b1e8")
+		(property "Reference" "Z1"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MM3Z5V6B"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SODFL2512X90N"
+			(at 38.1 -35.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mm3z9v1b-d.pdf"
+			(at 38.1 -135.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wide Zener Voltage Range Selection, 2.4V to 75V; VZ Tolerance Selection of +/-2% (B Series); Very Small and Thin SMD package; Matte Tin(Sn) finish, Pb Free"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 38.1 -335.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-MM3Z5V6B"
+			(at 38.1 -435.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MM3Z5V6B?qs=rXqtSHp76q4LY1TDZO3VJw%3D%3D"
+			(at 38.1 -535.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 38.1 -635.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MM3Z5V6B"
+			(at 38.1 -735.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd02e51d-4f7a-4cc1-bb4a-501030087e0f")
+		)
+		(pin "1"
+			(uuid "d1d2d49e-936f-43fa-aac2-7940315b753d")
+		)
+		(instances
+			(project ""
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "Z1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1545,16 +2736,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 88.9 0)
+		(at 227.33 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "56d5611c-9c29-4471-a11b-54fcdf0b2308")
-		(property "Reference" "#PWR069"
-			(at 63.5 95.25 0)
+		(uuid "4639948b-b228-43ce-89fb-e35cc555c81c")
+		(property "Reference" "#PWR082"
+			(at 227.33 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +2754,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 93.98 0)
+			(at 227.33 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 88.9 0)
+			(at 227.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 88.9 0)
+			(at 227.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +2780,140 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 88.9 0)
+			(at 227.33 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c3dabc-208f-4b06-9851-ad6e09fc9fe6")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 255.27 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47c13402-4297-4aea-b2bb-a4e7657148ea")
+		(property "Reference" "#PWR083"
+			(at 251.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 259.08 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b298881-6e16-4d1f-84de-c1feaf6a1337")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56d5611c-9c29-4471-a11b-54fcdf0b2308")
+		(property "Reference" "#PWR069"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,6 +3070,193 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 21.59 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b06fb5-76bd-412f-828c-a82d8ec749a8")
+		(property "Reference" "#PWR081"
+			(at 15.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4867ddaa-bdeb-4cbf-a0da-2cea15722a32")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SBR2U30SA-13:SBR2U30SA-13")
+		(at 246.38 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8659c6bb-29e9-4042-a0e7-fe3063c5d8e6")
+		(property "Reference" "D1"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR2U30SA-13"
+			(at 238.76 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIOM5226X230N"
+			(at 234.95 38.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBR2U30SA.pdf"
+			(at 234.95 -61.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rectifier Diode Super Barrier Rectifier 30V 2A 2-Pin SMA T/R"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.3"
+			(at 234.95 -261.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR2U30SA-13"
+			(at 234.95 -361.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR2U30SA-13?qs=oUsD4qhOtFzn2RwqTbZr%252Bw%3D%3D"
+			(at 234.95 -461.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 234.95 -561.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR2U30SA-13"
+			(at 234.95 -661.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05dafde2-33b9-4e81-82a4-28ebd21f4425")
+		)
+		(pin "2"
+			(uuid "ea3f4e63-8cd9-48bf-8d84-ce5b0d73838c")
+		)
+		(instances
+			(project ""
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 111.76 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1806,6 +3317,130 @@
 			(project "Solar_Tracker_PCB_Main"
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMP2045U-7:DMP2045U-7")
+		(at 41.91 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e541f9c-67a6-46df-acf8-56c932371990")
+		(property "Reference" "Q1"
+			(at 53.34 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP2045U-7"
+			(at 53.34 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT96P240X115-3N"
+			(at 53.34 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP2045U.pdf"
+			(at 53.34 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.15"
+			(at 53.34 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMP2045U-7"
+			(at 53.34 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D"
+			(at 53.34 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 53.34 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMP2045U-7"
+			(at 53.34 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4b0882e0-e257-4ada-b295-3205ebec1fbf")
+		)
+		(pin "1"
+			(uuid "57bdbe84-bea4-4f0f-a572-4266ca456adf")
+		)
+		(pin "2"
+			(uuid "ed8e2e4b-86c6-4dd1-a208-bc45bce0f57d")
+		)
+		(instances
+			(project ""
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2218,6 +3853,197 @@
 		)
 	)
 	(symbol
+		(lib_id "DMP2045U-7:DMP2045U-7")
+		(at 243.84 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad881665-2dab-4da7-a234-83c226d16f79")
+		(property "Reference" "Q2"
+			(at 255.27 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP2045U-7"
+			(at 255.27 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT96P240X115-3N"
+			(at 255.27 223.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP2045U.pdf"
+			(at 255.27 323.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.15"
+			(at 255.27 523.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMP2045U-7"
+			(at 255.27 623.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D"
+			(at 255.27 723.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 255.27 823.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMP2045U-7"
+			(at 255.27 923.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9999c92b-9d28-4e88-9e74-c51d7e0e5a6e")
+		)
+		(pin "1"
+			(uuid "793d43d1-5d66-4aea-a684-e35c86355fe0")
+		)
+		(pin "2"
+			(uuid "2bddd0d8-b492-43d0-a15d-65528afadaa6")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 25.4 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae8a41ea-d493-4d94-a114-0c788d7d5502")
+		(property "Reference" "R14"
+			(at 25.4 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 25.4 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 25.4 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5ddc4d2-0a6b-49e3-be01-0004252fcb9b")
+		)
+		(pin "2"
+			(uuid "f679410f-a6ae-4056-a32b-9b58cf8948f9")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 100.33 101.6 0)
 		(unit 1)
@@ -2565,6 +4391,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 227.33 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dce00e0b-8704-4558-a02e-c0ec9412b78c")
+		(property "Reference" "R15"
+			(at 220.98 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 223.52 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 225.552 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8e0d044-c668-4232-9d3e-295404a7edfc")
+		)
+		(pin "2"
+			(uuid "677803f8-e398-4e31-8f84-6cc7246dcaec")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 100.33 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2771,7 +4664,7 @@
 	)
 	(symbol
 		(lib_id "TB002-500-02BE:TB002-500-02BE")
-		(at 63.5 82.55 90)
+		(at 34.29 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2780,7 +4673,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7170dfd-4be8-45a5-9a94-d36e9c459c92")
 		(property "Reference" "J7"
-			(at 63.4999 66.04 0)
+			(at 34.2899 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +4683,7 @@
 			)
 		)
 		(property "Value" "TB002-500-02BE"
-			(at 66.0399 66.04 0)
+			(at 36.8299 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +4693,7 @@
 			)
 		)
 		(property "Footprint" "TB002:TB00250002BE"
-			(at 158.42 66.04 0)
+			(at 129.21 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +4703,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tb002-500.pdf"
-			(at 258.42 66.04 0)
+			(at 229.21 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +4713,7 @@
 			)
 		)
 		(property "Description" "TB002-500 Series - 2~24 Poles, Screw Type, Horizontal, 5.0 Pitch, 22~12 (AWG), Terminal Block Connector"
-			(at 63.5 82.55 0)
+			(at 34.29 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +4722,7 @@
 			)
 		)
 		(property "Height" "10.4"
-			(at 458.42 66.04 0)
+			(at 429.21 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +4732,7 @@
 			)
 		)
 		(property "Mouser Part Number" "490-TB002-500-02BE"
-			(at 558.42 66.04 0)
+			(at 529.21 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +4742,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D"
-			(at 658.42 66.04 0)
+			(at 629.21 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +4752,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Same Sky"
-			(at 758.42 66.04 0)
+			(at 729.21 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +4762,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TB002-500-02BE"
-			(at 858.42 66.04 0)
+			(at 829.21 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,73 +4781,6 @@
 			(project ""
 				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 187.96 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8a1da03-58bf-45c9-8360-1aa4707f5844")
-		(property "Reference" "#PWR060"
-			(at 184.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 191.77 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 187.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50555161-e098-4ccf-b590-ddde84c9f32d")
-		)
-		(instances
-			(project "Solar_Tracker_PCB_Main"
-				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/c6e05bfb-9dbb-4b23-9f99-8dd532fd7f1c"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)

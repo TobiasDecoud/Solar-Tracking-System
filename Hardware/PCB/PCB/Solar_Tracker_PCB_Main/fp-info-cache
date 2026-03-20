@@ -1,4 +1,11 @@
-27242064600082396
+27245612533572454
+373
+373
+373-1
+Connector
+0
+3
+3
 1729076
 1729076
 1729076
@@ -98727,6 +98734,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SM08B
+SM08BSRSSTBLFSN
+SM08B-SRSS-TB(LF)(SN)-2
+Connector
+0
+10
+10
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
