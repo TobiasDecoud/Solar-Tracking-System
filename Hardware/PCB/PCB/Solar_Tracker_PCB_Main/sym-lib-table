@@ -13,4 +13,5 @@
   (lib (name "1729076")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_1729076/1729076/KiCad/1729076.kicad_sym")(options "")(descr ""))
   (lib (name "1977223-1")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_1977223-1/1977223-1/KiCad/1977223-1.kicad_sym")(options "")(descr ""))
   (lib (name "TB002-500-02BE")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_TB002-500-02BE/TB002-500-02BE/KiCad/TB002-500-02BE.kicad_sym")(options "")(descr ""))
+  (lib (name "SM08B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_SM08B-SRSS-TB_LF__SN_/SM08B-SRSS-TB_LF__SN_/KiCad/SM08B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
 )

@@ -528,7 +528,7 @@
       },
       {
         "netclass": "pwm",
-        "pattern": "J1_7"
+        "pattern": "J6_1"
       }
     ]
   },

@@ -1,0 +1,9 @@
+Manufacturer=JST (JAPAN SOLDERLESS TERMINALS)
+PartNumber=SM08B-SRSS-TB(LF)(SN)
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=1.1
+Released=2025-05-02 10:31:12
+Downloaded=2026-03-19 23:02:20
+3D=Y
