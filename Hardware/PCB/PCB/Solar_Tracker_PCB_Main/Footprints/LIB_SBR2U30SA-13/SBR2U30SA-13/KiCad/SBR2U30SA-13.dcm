@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SBR2U30SA-13
+D Rectifier Diode Super Barrier Rectifier 30V 2A 2-Pin SMA T/R
+K
+F https://www.diodes.com/assets/Datasheets/SBR2U30SA.pdf
+$ENDCMP
+#
+#End Doc Library

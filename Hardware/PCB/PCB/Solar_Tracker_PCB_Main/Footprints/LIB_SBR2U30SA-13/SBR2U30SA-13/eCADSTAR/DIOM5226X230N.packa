@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SBR2U30SA-13"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-07-21-12:36:50)
+    (mountForm default
+        (footprintRef "DIOM5226X230N")
+        (spec "System")
+    )
+)

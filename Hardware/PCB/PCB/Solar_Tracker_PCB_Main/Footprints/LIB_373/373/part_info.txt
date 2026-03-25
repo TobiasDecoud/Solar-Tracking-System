@@ -1,0 +1,9 @@
+Manufacturer=Adafruit
+PartNumber=373
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=1.4
+Released=2025-10-31 07:24:19
+Downloaded=2026-03-20 02:01:56
+3D=Y

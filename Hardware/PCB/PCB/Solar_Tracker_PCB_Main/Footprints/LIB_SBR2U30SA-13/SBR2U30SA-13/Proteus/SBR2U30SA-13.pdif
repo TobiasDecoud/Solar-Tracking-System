@@ -1,0 +1,117 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SBR2U30SA-13"
+   (description "Rectifier Diode Super Barrier Rectifier 30V 2A 2-Pin SMA T/R")
+   (family "DIO")
+   (package "DIOM5226X230N")
+   (attribute "Datasheet Link" "https://www.diodes.com/assets/Datasheets/SBR2U30SA.pdf")
+   (attribute "Geometry.Height" "2.3mm")
+   (attribute "Mouser Part Number" "621-SBR2U30SA-13")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR2U30SA-13?qs=oUsD4qhOtFzn2RwqTbZr%252Bw%3D%3D")
+   (attribute "Manufacturer_Name" "Diodes Incorporated")
+   (attribute "Manufacturer_Part_Number" "SBR2U30SA-13")
+   (gate
+    (symbol "SBR2U30SA-13")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "SBR2U30SA-13"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIOM5226X230N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.575 1.71)
+      (pt 3.575 1.71)
+      (pt 3.575 -1.71)
+      (pt -3.575 -1.71)
+      (pt -3.575 1.71))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.598 1.302)
+      (pt 2.598 1.302)
+      (pt 2.598 -1.302)
+      (pt -2.598 -1.302)
+      (pt -2.598 1.302))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.598 0.528)
+      (pt -1.822 1.302))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.598 1.302)
+      (pt -2.925 1.302))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.598 -1.302)
+      (pt 2.598 -1.302))))
+   (leg 1 (pt -2.15 0) (padstack 0))
+   (leg 2 (pt 2.15 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.55 2.35 0 0 0))
+   )
+   (model "SBR2U30SA-13.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

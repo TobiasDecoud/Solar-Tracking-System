@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.65,
+          "height": 0.65,
+          "width": 0.65
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -528,7 +528,7 @@
       },
       {
         "netclass": "pwm",
-        "pattern": "J1_7"
+        "pattern": "J6_1"
       }
     ]
   },
