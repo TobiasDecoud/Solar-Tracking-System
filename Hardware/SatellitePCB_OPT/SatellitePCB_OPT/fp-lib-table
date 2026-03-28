@@ -1,6 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "OPT3001Q1_Footprint")(type "KiCad")(uri "C:/Users/hp/OneDrive/Escritorio/8vo Semestre/Proyecto 3/Panel Solar Inteligente/KiCad Design/Satellite PCB/SatellitePCB_OPT/Library/OPT3001Q1/OPT3001Q1_Footprint")(options "")(descr ""))
-  (lib (name "1729076Bornera_Footprint")(type "KiCad")(uri "C:/Users/hp/OneDrive/Escritorio/8vo Semestre/Proyecto 3/Panel Solar Inteligente/KiCad Design/Satellite PCB/SatellitePCB_OPT/Library/17229076/1729076Bornera_Footprint")(options "")(descr ""))
-  (lib (name "SM08B-SRSS-TB_LF__SN_Footprint")(type "KiCad")(uri "C:/Users/hp/OneDrive/Escritorio/8vo Semestre/Proyecto 3/Panel Solar Inteligente/KiCad Design/Satellite PCB/SatellitePCB_OPT/Library/SM08B-SRSS-TB_LF__SN_/SM08B-SRSS-TB_LF__SN_Footprint")(options "")(descr ""))
-)
