@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=PCF2131TFY
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=17
+Version=1.1
+Released=2021-11-10 13:08:25
+Downloaded=2026-03-06 12:40:19
+3D=Y

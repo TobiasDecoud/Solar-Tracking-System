@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BAT_HLD_013_SMT_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "BAT-HLD-013-SMT-TR" (!) = "", "BATHLD013SMTTR", "Other", "712-BAT-HLD-013SMTTR", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-013-SMT-TR?qs=4ASt3YYao0UKhYWrBts7tw%3D%3D", "CR2032 Battery Holder, 1 Position, Horizontal, Nickel (Ni)", "https://www.te.com/en/product-BAT-HLD-013-SMT-TR.html", "6.5 mm"
+END_PART
+
+END.

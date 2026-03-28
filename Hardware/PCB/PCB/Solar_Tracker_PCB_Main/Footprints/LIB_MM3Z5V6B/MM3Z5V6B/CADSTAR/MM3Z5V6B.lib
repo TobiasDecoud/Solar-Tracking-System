@@ -1,0 +1,16 @@
+.MM3Z5V6B :1 ;Wide Zener Voltage Range Selection, 2.4V to 75V; VZ Tolerance Selection of +/-2% (B Series); Very Small and Thin SMD package; Matte Tin(Sn) finish, Pb Free
+SODFL2512X90N
+*STM Z
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN MM3Z5V6B
+~!Mouser Part Number (512-MM3Z5V6B)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MM3Z5V6B?qs=rXqtSHp76q4LY1TDZO3VJw%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (MM3Z5V6B)
+~!Link Datasheet (https://www.onsemi.com/download/data-sheet/pdf/mm3z9v1b-d.pdf)
+~!Height (0.9mm)
+~!3D_Model (MM3Z5V6B)
+MM3Z5V6B
+1.1!U 2.1!U 

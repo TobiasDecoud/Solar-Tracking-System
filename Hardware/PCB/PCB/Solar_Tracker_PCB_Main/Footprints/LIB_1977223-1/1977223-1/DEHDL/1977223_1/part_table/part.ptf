@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1977223_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1977223-1" (!) = "", "19772231", "Other", "506-1977223-1", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1977223-1?qs=GE1PmMuiY3gx5ieyg2VO7w%3D%3D", "Body Features: Cover Material Steel | Case Color Brown | Actuator Force 100 G | Actuator Force 3.52 OZ | Actuator Material Nylon | Actuator Color Blue | Actuator Profile Extended | Case Material PPS | Product Orientation Vertical | Configuration Features: Support Bracket Without | Number of Actuators Single | Switch Feedback Type Tactile | Operating Function NO | Configuration (Pole-Throw) Single Pole - Single Throw | ESD Grounding Terminal Without | Ganged With | Contact Features: Contact Current Rating 50", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&PartCntxt=1977223-1&DocFormat=pdf", "4.44 mm"
+END_PART
+
+END.

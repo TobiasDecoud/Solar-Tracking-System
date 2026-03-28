@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS54302DDCT
+D 4.5-V to 28-V Input, 3-A Output, EMI Friendly Synchronous Step-Down Converter
+K
+F https://componentsearchengine.com/Datasheets/2/TPS54302DDCT.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74438336068
+D WE-MAPI SMT Power Inductor Size 3020; L = 6.8 H +/-20%; IR = 2.15 A; Isat = 3.65 A; RDCmax = 193 m
+K
+F https://www.we-online.com/catalog/datasheet/74438336068.pdf
+$ENDCMP
+#
+#End Doc Library

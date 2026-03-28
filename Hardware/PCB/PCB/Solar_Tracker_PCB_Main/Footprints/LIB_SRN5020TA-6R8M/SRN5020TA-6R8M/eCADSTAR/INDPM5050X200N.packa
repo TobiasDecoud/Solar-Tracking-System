@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SRN5020TA-6R8M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-20-08:43:11)
+    (mountForm default
+        (footprintRef "INDPM5050X200N")
+        (spec "System")
+    )
+)

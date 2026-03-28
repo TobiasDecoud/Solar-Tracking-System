@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_18679511"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-06-10:29:00)
+    (utime 2025-08-16-03:11:49)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BAT-HLD-013-SMT-TR")
+)
+
+
+(pinAssign "ECS_18679511"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-06-10:29:00)
+    (utime 2025-08-16-03:11:49)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18679511")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BAT-HLD-013-SMT-TR")
+)
+
+
+(part "BAT-HLD-013-SMT-TR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-06-10:29:00)
+    (utime 2025-08-16-03:11:49)
+    (packageRef "BAT-HLD-013-SMT-TR")
+    (pinAssignRef "ECS_18679511")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "BT")
+    (property "description" "CR2032 Battery Holder, 1 Position, Horizontal, Nickel (Ni)")
+    (property "Mouser_Part_Number" "712-BAT-HLD-013SMTTR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-013-SMT-TR?qs=4ASt3YYao0UKhYWrBts7tw%3D%3D")
+    (property "Manufacturer_Name" "TE Connectivity")
+    (property "Manufacturer_Part_Number" "BAT-HLD-013-SMT-TR")
+    (property "Datasheet_Link" "https://www.te.com/en/product-BAT-HLD-013-SMT-TR.html")
+    (property "compAreaTopHeight" 6.5)
+)
+
+

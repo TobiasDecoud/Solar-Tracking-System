@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "OPT3001DNPRQ1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-31-09:48:52)
+    (mountForm default
+        (footprintRef "SON65P200X200X65-7N-D")
+        (spec "System")
+    )
+)

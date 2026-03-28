@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SRN5020TA_6R8M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "SRN5020TA-6R8M" (!) = "", "INDPM5050X200N", "Inductors Precision Moulded", "652-SRN5020TA-6R8M", "https://www.mouser.co.uk/ProductDetail/Bourns/SRN5020TA-6R8M?qs=qSfuJ%252Bfl%2Fd6It%252BxmVgjRHA%3D%3D", "Fixed Inductors 6.8uH 20% 1.9A", "https://componentsearchengine.com/Datasheets/1/SRN5020TA-6R8M.pdf", "2 mm"
+END_PART
+
+END.

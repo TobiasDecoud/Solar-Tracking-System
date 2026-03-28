@@ -1,0 +1,16 @@
+.OPT3001DNPRQ1 :1 ;Automotive digital ambient light sensor (ALS) with high-precision human-eye response  
+SON65P200X200X65-7N-D
+*STM IC
+*NGS
+*PLB 1="VDD" 2="ADDR" 3="GND" 4="SCL" 5="INT" 6="SDA" 7="EP"
+*MXP 7
+*DFN OPT3001DNPRQ1
+~!Mouser Part Number (595-OPT3001DNPRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPT3001DNPRQ1?qs=F5EMLAvA7IAmN2MDU1xuSw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (OPT3001DNPRQ1)
+~!Link Datasheet (http://www.ti.com/lit/gpn/OPT3001-Q1)
+~!Height (0.65mm)
+~!3D_Model (OPT3001DNPRQ1)
+OPT3001DNPRQ1
+1.1!U 2.1!U 3.1!U 7.1!U 6.1!U 5.1!U 4.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV76133DCYR
+PartCategory=Integrated Circuit
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=1.1
+Released=2023-05-19 09:07:08
+Downloaded=2026-03-27 20:55:41
+3D=Y

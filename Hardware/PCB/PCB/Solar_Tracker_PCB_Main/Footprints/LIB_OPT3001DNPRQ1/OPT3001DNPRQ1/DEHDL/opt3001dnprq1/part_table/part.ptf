@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPT3001DNPRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPT3001DNPRQ1" (!) = "", "SON65P200X200X65-7N-D", "Small Outline No-lead", "595-OPT3001DNPRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPT3001DNPRQ1?qs=F5EMLAvA7IAmN2MDU1xuSw%3D%3D", "Automotive digital ambient light sensor (ALS) with high-precision human-eye response  ", "http://www.ti.com/lit/gpn/OPT3001-Q1", "0.65 mm"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.TPS54302DDCT :1 ;4.5-V to 28-V Input, 3-A Output, EMI Friendly Synchronous Step-Down Converter
+SOT95P280X110-6N
+*STM IC
+*NGS
+*PLB 1="GND" 2="SW" 3="VIN" 4="FB" 5="EN" 6="BOOT"
+*MXP 6
+*DFN TPS54302DDCT
+~!Mouser Part Number (595-TPS54302DDCT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54302DDCT?qs=zEmsApcVOkXGTx6CMk2KtQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS54302DDCT)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/TPS54302DDCT.pdf)
+~!Height (1.1mm)
+~!3D_Model (TPS54302DDCT)
+TPS54302DDCT
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

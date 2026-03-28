@@ -1,0 +1,16 @@
+.SRN5020TA-6R8M :1 ;Fixed Inductors 6.8uH 20% 1.9A
+INDPM5050X200N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SRN5020TA-6R8M
+~!Mouser Part Number (652-SRN5020TA-6R8M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SRN5020TA-6R8M?qs=qSfuJ%252Bfl%2Fd6It%252BxmVgjRHA%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SRN5020TA-6R8M)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/SRN5020TA-6R8M.pdf)
+~!Height (2mm)
+~!3D_Model (SRN5020TA-6R8M)
+SRN5020TA-6R8M
+1.1!U 2.1!U 

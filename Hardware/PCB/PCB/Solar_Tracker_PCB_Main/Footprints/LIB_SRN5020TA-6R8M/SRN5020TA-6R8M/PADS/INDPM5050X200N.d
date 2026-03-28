@@ -1,0 +1,36 @@
+*PADS-LIBRARY-PCB-DECALS-V9*
+
+INDPM5050X200N M 0 0 0 2 4 0 2 1 0
+TIMESTAMP 2026.03.27.23.03.06
+0 0 0 0 1.27 0.127 1 0 34 "Regular <Romansim Stroke Font>"
+REF-DES
+0 0 0 0 1.27 0.127 1 32 35 "Regular <Romansim Stroke Font>"
+PART-TYPE
+CLOSED 5 0.05 20 -1
+-3.375 2.85
+3.375 2.85
+3.375 -2.85
+-3.375 -2.85
+-3.375 2.85
+CLOSED 5 0.1 27 -1
+-2.5 2.5
+2.5 2.5
+2.5 -2.5
+-2.5 -2.5
+-2.5 2.5
+OPEN 2 0.2 26 -1
+2.5 2.5
+-2.5 2.5
+OPEN 2 0.2 26 -1
+-2.5 -2.5
+2.5 -2.5
+T-2 0 -2 0 1
+T2 0 2 0 2
+PAD 0 3 N 0
+-2 2.25 RF 0 90 4.8 0
+-1 0 R
+0 0 R
+
+*END*
+*REMARK* AP
+SRN5020TA-6R8M.stp/0/0/0/0/0/0

@@ -1,0 +1,16 @@
+.TLV76133DCYR :1 ;Linear Voltage Regulators 1-A 16-V high-PSRR linear voltage regulator
+SOT230P700X180-4N
+*STM IC
+*NGS
+*PLB 1="GND" 2="OUT_1" 3="IN" 4="OUT_2"
+*MXP 4
+*DFN TLV76133DCYR
+~!Mouser Part Number (595-TLV76133DCYR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV76133DCYR?qs=9vOqFld9vZV5BPjUhjTZUA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV76133DCYR)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tlv761.pdf?ts=1679984111185&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DTLV76133DCYR%2526nr%253D2)
+~!Height (1.8mm)
+~!3D_Model (TLV76133DCYR)
+TLV76133DCYR
+1.1!U 2.1!U 3.1!U 4.1!U 
