@@ -1,9 +1,0 @@
-Manufacturer=TE Connectivity
-PartNumber=BAT-HLD-013-SMT-TR
-PartCategory=Battery
-PackageCategory=Other
-PinCount=2
-Version=1.2
-Released=2024-01-06 10:29:00
-Downloaded=2026-03-10 18:50:21
-3D=Y

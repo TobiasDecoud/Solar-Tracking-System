@@ -1,9 +1,0 @@
-Manufacturer=ABRACON
-PartNumber=ABS07-32.768KHZ-T
-PartCategory=Crystal or Oscillator
-PackageCategory=Other
-PinCount=2
-Version=8.1
-Released=2019-02-22 00:35:16
-Downloaded=2026-03-10 00:20:33
-3D=Y

@@ -1,9 +1,0 @@
-Manufacturer=Diodes Incorporated
-PartNumber=SBR2U30SA-13
-PartCategory=Diode
-PackageCategory=Diodes Moulded
-PinCount=2
-Version=1.1
-Released=2021-11-22 12:28:49
-Downloaded=2026-03-20 17:36:37
-3D=Y
