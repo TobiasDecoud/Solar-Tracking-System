@@ -2,4 +2,4 @@
 
 Sistema que orienta automáticamente un panel solar hacia el sol a lo largo del día para maximizar la captación de energía.
 
-![Diagrama](hardware/EsquematicoGeneral.svg)
+![Diagrama](Hardware/EsquematicoGeneral.svg)
