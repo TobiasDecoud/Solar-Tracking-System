@@ -2935,6 +2935,26 @@
 		)
 		(uuid "b3d46cf5-4b68-429f-ba22-60d57ad1f7b1")
 	)
+	(text_box "Decoupling VDD hacia placa secundaria\nSe colocan capacitores en paralelo de distinto valor para cubrir diferentes rangos de frecuencia:\n - 10 µF: reserva de energía, estabiliza variaciones lentas de carga.\n - 100 nF: filtra transitorios rápidos y ruido de alta frecuencia.\nEsta combinación asegura que la línea de 3V3 llegue limpia y estable a la placa secundaria."
+		(exclude_from_sim no)
+		(at 179.024 133.1261 0)
+		(size 105.456 11.6539)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e59323a2-34b7-4056-b775-c64eed625af2")
+	)
 	(junction
 		(at 256.54 82.55)
 		(diameter 0)
@@ -2952,6 +2972,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29995f93-72d0-4826-956c-3ae1130a48a5")
+	)
+	(junction
+		(at 226.06 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313ea054-cb63-4568-b866-5d25e9e33bd5")
 	)
 	(junction
 		(at 256.54 77.47)
@@ -3209,6 +3235,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 118.11) (xy 226.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e06fda9-4364-4a8c-9786-9d614feb8c1a")
+	)
+	(wire
+		(pts
 			(xy 218.44 27.94) (xy 218.44 33.02)
 		)
 		(stroke
@@ -3456,6 +3492,16 @@
 			(type default)
 		)
 		(uuid "54610892-10e1-4d41-95ff-b6023d2200d9")
+	)
+	(wire
+		(pts
+			(xy 219.71 110.49) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f226cc-0c57-4259-852f-f82ccc032f62")
 	)
 	(wire
 		(pts
@@ -7087,6 +7133,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 219.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e4bf638-6a2c-4cb6-9fcc-bcfdffbb7bf9")
+		(property "Reference" "C23"
+			(at 214.63 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 214.122 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 220.6752 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bda15e1-e8ef-47b6-bb63-6112d3411682")
+		)
+		(pin "1"
+			(uuid "765896e2-f667-41a4-9d3b-21277a75e392")
+		)
+		(instances
+			(project "Solar_Tracker_PCB_Main"
+				(path "/99b6ddd9-7ffe-4c85-972a-e0f594a166d4/521ed49f-67a8-4f65-9cb7-064f532bae28"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 54.61 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10492,7 +10607,7 @@
 		(dnp no)
 		(uuid "f386283f-9eab-4c54-b461-7f1127f860e9")
 		(property "Reference" "C22"
-			(at 218.948 112.776 0)
+			(at 227.584 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,7 +10616,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 219.456 114.808 0)
+			(at 228.092 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
