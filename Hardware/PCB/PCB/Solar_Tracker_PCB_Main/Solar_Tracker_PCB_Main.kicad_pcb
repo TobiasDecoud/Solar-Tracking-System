@@ -137,7 +137,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "fabrication_files_g3")
+			(outputdirectory "fabrication_files_Maing3")
 		)
 	)
 	(net 0 "")
