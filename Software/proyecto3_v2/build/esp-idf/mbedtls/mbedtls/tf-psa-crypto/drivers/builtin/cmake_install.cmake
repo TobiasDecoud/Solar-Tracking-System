@@ -43,13 +43,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tobias/esp/proyecto3_v2/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/cmake_install.cmake")
+  include("/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/tobias/esp/proyecto3_v2/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/install_local_manifest.txt"
+  file(WRITE "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

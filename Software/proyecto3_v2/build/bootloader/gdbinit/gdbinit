@@ -1,2 +1,2 @@
-source /home/tobias/esp/proyecto3_v2/build/bootloader/gdbinit/symbols
-source /home/tobias/esp/proyecto3_v2/build/bootloader/gdbinit/connect
+source /home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader/gdbinit/symbols
+source /home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader/gdbinit/connect

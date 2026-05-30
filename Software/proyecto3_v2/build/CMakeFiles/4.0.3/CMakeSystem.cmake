@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.17.0-23-generic")
+set(CMAKE_HOST_SYSTEM "Linux-6.17.0-29-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.17.0-23-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "6.17.0-29-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/tobias/esp/proyecto3_v2/build/toolchain/toolchain-esp32s3.cmake")
+include("/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/toolchain/toolchain-esp32s3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

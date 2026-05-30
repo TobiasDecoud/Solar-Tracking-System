@@ -1,4 +1,4 @@
-Command: ninja all
+Command: cmake -G Ninja -B /home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/tobias/.espressif/python_env/idf6.0_py3.12_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2
 Configuration Report               
  ───────────────────────────────── 
    Parser Version: 1               

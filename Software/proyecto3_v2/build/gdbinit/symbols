@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/tobias/esp/proyecto3_v2/build/bootloader/bootloader.elf
+    add-symbol-file /home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/tobias/esp/proyecto3_v2/build/proyecto3_v2.elf
+file /home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/proyecto3_v2.elf

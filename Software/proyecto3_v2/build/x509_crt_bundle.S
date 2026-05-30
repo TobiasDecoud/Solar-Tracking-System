@@ -1,4 +1,4 @@
-/* * Data converted from /home/tobias/esp/proyecto3_v2/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

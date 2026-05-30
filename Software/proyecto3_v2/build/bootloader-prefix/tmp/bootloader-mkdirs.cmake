@@ -10,18 +10,18 @@ if(NOT EXISTS "/home/tobias/.espressif/v6.0.1/esp-idf/components/bootloader/subp
   file(MAKE_DIRECTORY "/home/tobias/.espressif/v6.0.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/tobias/esp/proyecto3_v2/build/bootloader"
-  "/home/tobias/esp/proyecto3_v2/build/bootloader-prefix"
-  "/home/tobias/esp/proyecto3_v2/build/bootloader-prefix/tmp"
-  "/home/tobias/esp/proyecto3_v2/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/tobias/esp/proyecto3_v2/build/bootloader-prefix/src"
-  "/home/tobias/esp/proyecto3_v2/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader"
+  "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader-prefix"
+  "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader-prefix/tmp"
+  "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader-prefix/src"
+  "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/tobias/esp/proyecto3_v2/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/tobias/esp/proyecto3_v2/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/tobias/Documentos/github/Solar-Tracking-System/Software/proyecto3_v2/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
