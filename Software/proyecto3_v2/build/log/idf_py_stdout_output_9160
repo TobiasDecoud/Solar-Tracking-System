@@ -1,0 +1,148 @@
+Command: /home/tobias/.espressif/python_env/idf6.0_py3.12_env/bin/python /home/tobias/.espressif/v6.0.1/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/tobias/esp/proyecto3_v2/build/proyecto3_v2.elf /home/tobias/esp/proyecto3_v2/build/bootloader/bootloader.elf -m '/home/tobias/.espressif/python_env/idf6.0_py3.12_env/bin/python' '/home/tobias/.espressif/v6.0.1/esp-idf/tools/idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x0 (DOWNLOAD(USB/UART0))
+Saved PC:0x40041a76
+waiting for download
+[0;32mI (1041) BNO085: [0] pkt ch=0 len=60 rpt=0x00[0m
+[0;32mI (1091) BNO085: [1] pkt ch=0 len=60 rpt=0x78[0m
+[0;32mI (1141) BNO085: [2] pkt ch=0 len=60 rpt=0x70[0m
+[0;32mI (1191) BNO085: [3] pkt ch=0 len=60 rpt=0xFB[0m
+[0;32mI (1241) BNO085: [4] pkt ch=0 len=32 rpt=0x1B[0m
+[0;32mI (1291) BNO085: [5] pkt ch=1 len=1 rpt=0x01[0m
+[0;32mI (1341) BNO085: [6] pkt ch=2 len=16 rpt=0xF1[0m
+[0;32mI (1791) BNO085: Enviando Product ID Request...[0m
+I (1891) BNO085: [req 0] pkt ch=2 len=16 rpt=0xF8
+[0;32mI (1891) BNO085: BNO085 OK - FW v3.2 build 6[0m
+[0;32mI (1991) BNO085: Rotation Vector habilitado a 50 Hz[0m
+[0;32mI (1991) PCF2131: PCF2131 inicializado en 0x53 (SW I2C pin SDA=47 SCL=48)[0m
+Control_3 nuevo: 0x00
+[0;33mW (1991) PCF2131: OSF activo: la hora no es confiable[0m
+OSF al arrancar: INVALIDO - hora perdida
+Hora leida: 00:00:10
+[0;32mI (2001) PCF2131: Hora seteada: 11:34:00  23/05/2026[0m
+--- Test Motor 1: adelante 50% por 2s ---
+--- Test Motor 1: atras 75% por 2s ---
+--- Test Motor 1: freno ---
+--- Test Motor 2: adelante 100% por 2s ---
+--- Test Motor 2: adelante 30% por 2s ---
+--- Test Motor 2: freno ---
+--- Test ambos motores a la vez: 60% adelante por 3s ---
+--- Test motores completo ---
+
+Hora: 11:34:12  Fecha: 23/05/2026
+Luz: IC1=295.60  IC2=278.88  IC3=303.92  IC4=292.72  lux
+Hora: 11:34:13  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=294.32  IC2=278.24  IC3=302.32  IC4=292.08  lux
+Hora: 11:34:14  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=293.04  IC2=277.28  IC3=301.36  IC4=291.12  lux
+Hora: 11:34:15  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=292.08  IC2=276.64  IC3=300.40  IC4=290.48  lux
+Hora: 11:34:16  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=291.44  IC2=275.68  IC3=299.44  IC4=289.52  lux
+Hora: 11:34:17  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=290.48  IC2=275.04  IC3=299.44  IC4=289.52  lux
+Hora: 11:34:18  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=290.08  IC2=274.08  IC3=298.80  IC4=288.56  lux
+Hora: 11:34:19  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=289.12  IC2=274.00  IC3=298.16  IC4=287.92  lux
+Hora: 11:34:20  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=288.48  IC2=273.36  IC3=297.20  IC4=286.96  lux
+Hora: 11:34:21  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=287.52  IC2=272.40  IC3=296.24  IC4=286.32  lux
+Hora: 11:34:22  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=287.20  IC2=272.08  IC3=295.60  IC4=285.68  lux
+Hora: 11:34:22  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.4  (deg)
+Luz: IC1=286.56  IC2=272.08  IC3=295.92  IC4=285.36  lux
+Hora: 11:34:23  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=285.92  IC2=270.80  IC3=294.96  IC4=284.40  lux
+Hora: 11:34:24  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=284.96  IC2=269.84  IC3=294.88  IC4=283.44  lux
+Hora: 11:34:25  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.1  roll=-3.3  (deg)
+Luz: IC1=282.72  IC2=268.24  IC3=292.96  IC4=282.08  lux
+Hora: 11:34:26  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.2  roll=-3.2  (deg)
+Luz: IC1=282.40  IC2=268.88  IC3=292.64  IC4=282.40  lux
+Hora: 11:34:27  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.2  roll=-3.2  (deg)
+Luz: IC1=282.08  IC2=267.92  IC3=292.00  IC4=281.44  lux
+Hora: 11:34:28  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.2  roll=-3.2  (deg)
+Luz: IC1=281.44  IC2=267.28  IC3=291.36  IC4=280.80  lux
+Hora: 11:34:29  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.2  (deg)
+Luz: IC1=280.80  IC2=265.68  IC3=290.08  IC4=279.84  lux
+Hora: 11:34:30  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.2  (deg)
+Luz: IC1=280.16  IC2=266.00  IC3=289.44  IC4=279.20  lux
+Hora: 11:34:31  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=279.20  IC2=264.08  IC3=288.48  IC4=278.24  lux
+Hora: 11:34:32  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.2  roll=-3.1  (deg)
+Luz: IC1=278.24  IC2=264.08  IC3=288.16  IC4=277.28  lux
+Hora: 11:34:33  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.2  roll=-3.1  (deg)
+Luz: IC1=277.60  IC2=263.44  IC3=287.20  IC4=277.28  lux
+Hora: 11:34:34  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=276.00  IC2=261.84  IC3=285.92  IC4=275.68  lux
+Hora: 11:34:35  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=275.60  IC2=261.20  IC3=284.96  IC4=274.72  lux
+Hora: 11:34:36  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=275.28  IC2=261.12  IC3=284.00  IC4=274.08  lux
+Hora: 11:34:37  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=274.64  IC2=260.48  IC3=283.68  IC4=273.12  lux
+Hora: 11:34:38  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=274.00  IC2=259.52  IC3=282.72  IC4=272.48  lux
+Hora: 11:34:39  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=273.04  IC2=258.88  IC3=282.00  IC4=271.84  lux
+Hora: 11:34:40  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=272.40  IC2=258.24  IC3=281.68  IC4=271.76  lux
+Hora: 11:34:41  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=271.44  IC2=257.28  IC3=281.04  IC4=270.80  lux
+Hora: 11:34:42  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=270.80  IC2=256.64  IC3=280.08  IC4=270.48  lux
+Hora: 11:34:43  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=270.16  IC2=256.00  IC3=279.12  IC4=269.20  lux
+Hora: 11:34:44  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=270.16  IC2=255.04  IC3=278.48  IC4=268.56  lux
+Hora: 11:34:45  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=269.20  IC2=255.04  IC3=277.84  IC4=268.24  lux
+Hora: 11:34:46  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=268.56  IC2=254.40  IC3=276.88  IC4=267.60  lux
+Hora: 11:34:47  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=267.92  IC2=253.76  IC3=276.24  IC4=266.96  lux
+Hora: 11:34:48  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=267.28  IC2=252.80  IC3=275.92  IC4=266.96  lux
+Hora: 11:34:49  Fecha: 23/05/2026
+IMU  yaw=285.4  pitch=-14.3  roll=-3.1  (deg)
+Luz: IC1=266.64  IC2=252.16  IC3=275.28  IC4=266.00  lux

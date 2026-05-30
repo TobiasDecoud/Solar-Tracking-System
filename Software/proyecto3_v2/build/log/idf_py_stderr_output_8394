@@ -1,0 +1,7 @@
+Command: /home/tobias/.espressif/python_env/idf6.0_py3.12_env/bin/python /home/tobias/.espressif/v6.0.1/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/tobias/esp/proyecto3_v2/build/proyecto3_v2.elf /home/tobias/esp/proyecto3_v2/build/bootloader/bootloader.elf -m '/home/tobias/.espressif/python_env/idf6.0_py3.12_env/bin/python' '/home/tobias/.espressif/v6.0.1/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x400490d5: [0;33musb_uart_device_rx_one_char[0m[0m in [0;32mROM[0m
+[1;31m--- Error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[0m

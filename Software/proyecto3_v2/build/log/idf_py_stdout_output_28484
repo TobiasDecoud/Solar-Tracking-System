@@ -1,0 +1,425 @@
+Command: /home/tobias/.espressif/python_env/idf6.0_py3.12_env/bin/python /home/tobias/.espressif/v6.0.1/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/tobias/esp/proyecto3_v2/build/proyecto3_v2.elf /home/tobias/esp/proyecto3_v2/build/bootloader/bootloader.elf -m '/home/tobias/.espressif/python_env/idf6.0_py3.12_env/bin/python' '/home/tobias/.espressif/v6.0.1/esp-idf/tools/idf.py' '-p' '/dev/ttyACM0'
+[0;32mI (103) esp_image: segment 3: paddr=00020020 vaddr=42000020 sizeESP-ROM:esp32s3-20210327[0m
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378f2e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2f58
+entry 0x403c8908
+[0;32mI (24) boot: ESP-IDF v6.0.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time May 19 2026 22:42:17[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (27) boot: efuse block revision: v1.3[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0addch ( 44508) map[0m
+[0;32mI (94) esp_image: segment 1: paddr=0001ae04 vaddr=3fc90800 size=030ach ( 12460) load[0m
+[0;32mI (97) esp_image: segment 2: paddr=0001deb8 vaddr=40374000 size=02160h (  8544) load[0m
+[0;32mI (103) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=16d18h ( 93464) map[0m
+[0;32mI (125) esp_image: segment 4: paddr=00036d40 vaddr=40376160 size=0a610h ( 42512) load[0m
+[0;32mI (135) esp_image: segment 5: paddr=00041358 vaddr=50000000 size=00024h (    36) load[0m
+[0;32mI (141) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (141) boot: Disabling RNG early entropy source...[0m
+[0;32mI (153) cpu_start: Multicore app[0m
+[0;32mI (161) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (162) cpu_start: Pro cpu start user code[0m
+[0;32mI (162) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (163) app_init: Application information:[0m
+[0;32mI (167) app_init: Project name:     proyecto3_v2[0m
+[0;32mI (172) app_init: App version:      1[0m
+[0;32mI (175) app_init: Compile time:     May 19 2026 22:42:10[0m
+[0;32mI (180) app_init: ELF file SHA256:  61ea0b27f...[0m
+[0;32mI (184) app_init: ESP-IDF:          v6.0.1[0m
+[0;32mI (188) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (192) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (196) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (200) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (206) heap_init: At 3FC942A0 len 00055470 (341 KiB): RAM[0m
+[0;32mI (211) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (216) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (222) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (228) spi_flash: detected chip: generic[0m
+[0;32mI (231) spi_flash: flash io: dio[0m
+[0;33mW (234) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (246) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (252) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (259) main_task: Started on CPU0[0m
+[0;32mI (269) main_task: Calling app_main()[0m
+Escaneando bus I2C...
+  Dispositivo encontrado en 0x53
+Scan completo
+
+Escaneando bus I2C 1 (IMU)...
+  Dispositivo encontrado en 0x4A
+Inicializando BNO085...
+[0;32mI (1019) BNO085: [0] pkt ch=0 len=60 rpt=0x00[0m
+[0;32mI (1069) BNO085: [1] pkt ch=0 len=60 rpt=0x78[0m
+[0;32mI (1119) BNO085: [2] pkt ch=0 len=60 rpt=0x70[0m
+[0;32mI (1169) BNO085: [3] pkt ch=0 len=60 rpt=0xFB[0m
+[0;32mI (1219) BNO085: [4] pkt ch=0 len=32 rpt=0x1B[0m
+[0;32mI (1269) BNO085: [5] pkt ch=1 len=1 rpt=0x01[0m
+[0;32mI (1319) BNO085: [6] pkt ch=2 len=16 rpt=0xF1[0m
+[0;32mI (1769) BNO085: Enviando Product ID Request...[0m
+[0;32mI (1869) BNO085: [req 0] pkt ch=2 len=16 rpt=0xF8[0m
+[0;32mI (1869) BNO085: BNO085 OK - FW v3.2 build 6[0m
+[0;32mI (1969) BNO085: Rotation Vector habilitado a 50 Hz[0m
+[0;32mI (1969) PCF2131: PCF2131 inicializado en 0x53[0m
+Control_3 nuevo: 0x08
+OSF al arrancar: valido
+Hora leida: 16:51:29
+Hora: 16:51:29  Fecha: 22/05/2026
+IMU  yaw=249.8  pitch=0.5  roll=0.2  (deg)
+Hora: 16:51:30  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.4  roll=0.3  (deg)
+Hora: 16:51:31  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.4  roll=0.3  (deg)
+Hora: 16:51:32  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.4  roll=0.3  (deg)
+Hora: 16:51:33  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.4  roll=0.3  (deg)
+Hora: 16:51:34  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.4  roll=0.3  (deg)
+Hora: 16:51:35  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.3  roll=0.2  (deg)
+Hora: 16:51:36  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.3  roll=0.2  (deg)
+Hora: 16:51:37  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.3  roll=0.2  (deg)
+Hora: 16:51:38  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.3  roll=0.2  (deg)
+Hora: 16:51:39  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=0.3  roll=0.2  (deg)
+Hora: 16:51:40  Fecha: 22/05/2026
+IMU  yaw=249.9  pitch=-0.7  roll=-1.7  (deg)
+Hora: 16:51:41  Fecha: 22/05/2026
+IMU  yaw=244.9  pitch=-30.2  roll=4.4  (deg)
+Hora: 16:51:42  Fecha: 22/05/2026
+IMU  yaw=245.0  pitch=-30.1  roll=4.4  (deg)
+Hora: 16:51:43  Fecha: 22/05/2026
+IMU  yaw=243.5  pitch=-36.6  roll=6.3  (deg)
+Hora: 16:51:44  Fecha: 22/05/2026
+IMU  yaw=240.8  pitch=-52.8  roll=13.9  (deg)
+Hora: 16:51:45  Fecha: 22/05/2026
+IMU  yaw=240.7  pitch=-53.0  roll=14.0  (deg)
+Hora: 16:51:46  Fecha: 22/05/2026
+IMU  yaw=239.5  pitch=-55.2  roll=15.3  (deg)
+Hora: 16:51:47  Fecha: 22/05/2026
+IMU  yaw=244.6  pitch=-39.8  roll=6.1  (deg)
+Hora: 16:51:48  Fecha: 22/05/2026
+IMU  yaw=244.7  pitch=-39.7  roll=6.1  (deg)
+Hora: 16:51:49  Fecha: 22/05/2026
+IMU  yaw=245.7  pitch=-33.0  roll=4.4  (deg)
+Hora: 16:51:50  Fecha: 22/05/2026
+IMU  yaw=246.0  pitch=-34.5  roll=4.5  (deg)
+Hora: 16:51:51  Fecha: 22/05/2026
+IMU  yaw=246.0  pitch=-34.5  roll=4.5  (deg)
+Hora: 16:51:52  Fecha: 22/05/2026
+IMU  yaw=246.3  pitch=-35.2  roll=4.6  (deg)
+Hora: 16:51:53  Fecha: 22/05/2026
+IMU  yaw=208.9  pitch=-2.4  roll=5.0  (deg)
+Hora: 16:51:54  Fecha: 22/05/2026
+IMU  yaw=206.4  pitch=-2.6  roll=4.7  (deg)
+Hora: 16:51:55  Fecha: 22/05/2026
+IMU  yaw=168.3  pitch=0.7  roll=0.6  (deg)
+Hora: 16:51:56  Fecha: 22/05/2026
+IMU  yaw=166.1  pitch=0.6  roll=0.6  (deg)
+Hora: 16:51:57  Fecha: 22/05/2026
+IMU  yaw=164.4  pitch=0.6  roll=0.6  (deg)
+Hora: 16:51:58  Fecha: 22/05/2026
+IMU  yaw=84.1  pitch=1.0  roll=1.4  (deg)
+Hora: 16:51:59  Fecha: 22/05/2026
+IMU  yaw=79.2  pitch=-0.8  roll=2.7  (deg)
+Hora: 16:52:00  Fecha: 22/05/2026
+IMU  yaw=78.4  pitch=-0.9  roll=2.8  (deg)
+Hora: 16:52:01  Fecha: 22/05/2026
+IMU  yaw=76.6  pitch=-34.4  roll=4.5  (deg)
+Hora: 16:52:02  Fecha: 22/05/2026
+IMU  yaw=74.7  pitch=-35.0  roll=4.5  (deg)
+Hora: 16:52:03  Fecha: 22/05/2026
+IMU  yaw=74.7  pitch=-34.8  roll=4.4  (deg)
+Hora: 16:52:04  Fecha: 22/05/2026
+IMU  yaw=70.6  pitch=-27.9  roll=2.7  (deg)
+Hora: 16:52:05  Fecha: 22/05/2026
+IMU  yaw=90.1  pitch=-1.8  roll=2.0  (deg)
+Hora: 16:52:06  Fecha: 22/05/2026
+IMU  yaw=87.3  pitch=-2.5  roll=2.0  (deg)
+Hora: 16:52:07  Fecha: 22/05/2026
+IMU  yaw=73.5  pitch=-26.2  roll=2.1  (deg)
+Hora: 16:52:08  Fecha: 22/05/2026
+IMU  yaw=67.9  pitch=-37.8  roll=4.9  (deg)
+Hora: 16:52:09  Fecha: 22/05/2026
+IMU  yaw=67.9  pitch=-37.9  roll=5.0  (deg)
+Hora: 16:52:10  Fecha: 22/05/2026
+IMU  yaw=66.7  pitch=-39.7  roll=5.6  (deg)
+Hora: 16:52:11  Fecha: 22/05/2026
+IMU  yaw=66.4  pitch=-41.5  roll=6.4  (deg)
+Hora: 16:52:12  Fecha: 22/05/2026
+IMU  yaw=66.4  pitch=-41.6  roll=6.4  (deg)
+Hora: 16:52:13  Fecha: 22/05/2026
+IMU  yaw=65.1  pitch=-46.1  roll=8.2  (deg)
+Hora: 16:52:14  Fecha: 22/05/2026
+IMU  yaw=64.2  pitch=-48.9  roll=9.4  (deg)
+Hora: 16:52:15  Fecha: 22/05/2026
+IMU  yaw=64.2  pitch=-48.9  roll=9.4  (deg)
+Hora: 16:52:16  Fecha: 22/05/2026
+IMU  yaw=64.1  pitch=-49.3  roll=9.5  (deg)
+Hora: 16:52:17  Fecha: 22/05/2026
+IMU  yaw=70.5  pitch=-41.1  roll=6.3  (deg)
+Hora: 16:52:17  Fecha: 22/05/2026
+IMU  yaw=70.5  pitch=-41.1  roll=6.5  (deg)
+Hora: 16:52:18  Fecha: 22/05/2026
+IMU  yaw=79.1  pitch=-2.4  roll=34.7  (deg)
+Hora: 16:52:19  Fecha: 22/05/2026
+IMU  yaw=75.9  pitch=-1.2  roll=39.3  (deg)
+Hora: 16:52:20  Fecha: 22/05/2026
+IMU  yaw=75.9  pitch=-1.2  roll=39.2  (deg)
+Hora: 16:52:21  Fecha: 22/05/2026
+IMU  yaw=75.8  pitch=-0.7  roll=39.3  (deg)
+Hora: 16:52:22  Fecha: 22/05/2026
+IMU  yaw=75.4  pitch=-0.6  roll=44.4  (deg)
+Hora: 16:52:23  Fecha: 22/05/2026
+IMU  yaw=75.4  pitch=-0.5  roll=44.5  (deg)
+Hora: 16:52:24  Fecha: 22/05/2026
+IMU  yaw=74.9  pitch=0.1  roll=48.8  (deg)
+Hora: 16:52:25  Fecha: 22/05/2026
+IMU  yaw=75.2  pitch=-0.1  roll=47.6  (deg)
+Hora: 16:52:26  Fecha: 22/05/2026
+IMU  yaw=75.2  pitch=-0.1  roll=47.6  (deg)
+Hora: 16:52:27  Fecha: 22/05/2026
+IMU  yaw=75.4  pitch=0.3  roll=47.0  (deg)
+Hora: 16:52:28  Fecha: 22/05/2026
+IMU  yaw=353.0  pitch=8.5  roll=4.2  (deg)
+Hora: 16:52:29  Fecha: 22/05/2026
+IMU  yaw=352.1  pitch=7.9  roll=3.3  (deg)
+Hora: 16:52:30  Fecha: 22/05/2026
+IMU  yaw=291.7  pitch=1.6  roll=-5.3  (deg)
+Hora: 16:52:31  Fecha: 22/05/2026
+IMU  yaw=323.3  pitch=-0.8  roll=-4.7  (deg)
+Hora: 16:52:32  Fecha: 22/05/2026
+IMU  yaw=325.8  pitch=-0.2  roll=-4.5  (deg)
+Hora: 16:52:33  Fecha: 22/05/2026
+IMU  yaw=49.8  pitch=0.0  roll=3.9  (deg)
+Hora: 16:52:34  Fecha: 22/05/2026
+IMU  yaw=78.3  pitch=-25.8  roll=6.6  (deg)
+Hora: 16:52:35  Fecha: 22/05/2026
+IMU  yaw=76.9  pitch=-25.9  roll=6.9  (deg)
+Hora: 16:52:36  Fecha: 22/05/2026
+IMU  yaw=73.1  pitch=-39.3  roll=1.6  (deg)
+Hora: 16:52:37  Fecha: 22/05/2026
+IMU  yaw=72.1  pitch=-43.6  roll=1.6  (deg)
+Hora: 16:52:38  Fecha: 22/05/2026
+IMU  yaw=72.1  pitch=-43.7  roll=1.6  (deg)
+Hora: 16:52:39  Fecha: 22/05/2026
+IMU  yaw=72.0  pitch=-45.5  roll=1.6  (deg)
+Hora: 16:52:40  Fecha: 22/05/2026
+IMU  yaw=72.2  pitch=-42.0  roll=1.1  (deg)
+Hora: 16:52:41  Fecha: 22/05/2026
+IMU  yaw=72.4  pitch=-41.7  roll=1.0  (deg)
+Hora: 16:52:42  Fecha: 22/05/2026
+IMU  yaw=74.8  pitch=-7.7  roll=39.3  (deg)
+Hora: 16:52:43  Fecha: 22/05/2026
+IMU  yaw=74.4  pitch=-1.0  roll=47.2  (deg)
+Hora: 16:52:44  Fecha: 22/05/2026
+IMU  yaw=74.4  pitch=-1.0  roll=47.2  (deg)
+Hora: 16:52:45  Fecha: 22/05/2026
+IMU  yaw=74.4  pitch=-0.8  roll=46.6  (deg)
+Hora: 16:52:46  Fecha: 22/05/2026
+IMU  yaw=74.3  pitch=-0.8  roll=45.9  (deg)
+Hora: 16:52:47  Fecha: 22/05/2026
+IMU  yaw=74.4  pitch=-0.8  roll=45.9  (deg)
+Hora: 16:52:48  Fecha: 22/05/2026
+IMU  yaw=74.4  pitch=-0.8  roll=45.9  (deg)
+Hora: 16:52:49  Fecha: 22/05/2026
+IMU  yaw=74.4  pitch=-0.9  roll=45.7  (deg)
+Hora: 16:52:50  Fecha: 22/05/2026
+IMU  yaw=74.4  pitch=-0.9  roll=45.7  (deg)
+Hora: 16:52:51  Fecha: 22/05/2026
+IMU  yaw=74.4  pitch=-1.0  roll=46.2  (deg)
+Hora: 16:52:52  Fecha: 22/05/2026
+IMU  yaw=56.2  pitch=4.9  roll=0.8  (deg)
+Hora: 16:52:53  Fecha: 22/05/2026
+IMU  yaw=50.2  pitch=6.0  roll=-1.4  (deg)
+Hora: 16:52:54  Fecha: 22/05/2026
+IMU  yaw=143.3  pitch=-3.7  roll=-3.8  (deg)
+Hora: 16:52:55  Fecha: 22/05/2026
+IMU  yaw=185.6  pitch=-0.6  roll=-7.2  (deg)
+Hora: 16:52:56  Fecha: 22/05/2026
+IMU  yaw=185.5  pitch=-0.5  roll=-7.2  (deg)
+Hora: 16:52:57  Fecha: 22/05/2026
+IMU  yaw=184.6  pitch=0.1  roll=-7.5  (deg)
+Hora: 16:52:58  Fecha: 22/05/2026
+IMU  yaw=304.8  pitch=-0.9  roll=-4.6  (deg)
+Hora: 16:52:59  Fecha: 22/05/2026
+IMU  yaw=304.8  pitch=-1.0  roll=-4.6  (deg)
+Hora: 16:53:00  Fecha: 22/05/2026
+IMU  yaw=304.5  pitch=-1.3  roll=-3.7  (deg)
+Hora: 16:53:01  Fecha: 22/05/2026
+IMU  yaw=350.2  pitch=5.5  roll=-0.2  (deg)
+Hora: 16:53:02  Fecha: 22/05/2026
+IMU  yaw=350.3  pitch=5.5  roll=-0.6  (deg)
+Hora: 16:53:03  Fecha: 22/05/2026
+IMU  yaw=39.7  pitch=6.2  roll=16.4  (deg)
+Hora: 16:53:04  Fecha: 22/05/2026
+IMU  yaw=43.9  pitch=1.5  roll=4.0  (deg)
+Hora: 16:53:05  Fecha: 22/05/2026
+IMU  yaw=44.0  pitch=1.4  roll=3.8  (deg)
+Hora: 16:53:06  Fecha: 22/05/2026
+IMU  yaw=40.5  pitch=1.4  roll=2.5  (deg)
+Hora: 16:53:07  Fecha: 22/05/2026
+IMU  yaw=40.5  pitch=1.0  roll=2.6  (deg)
+Hora: 16:53:07  Fecha: 22/05/2026
+IMU  yaw=40.5  pitch=1.0  roll=2.6  (deg)
+Hora: 16:53:08  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=1.0  roll=2.6  (deg)
+Hora: 16:53:09  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:10  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:11  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:12  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:13  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:14  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:15  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:16  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:17  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:18  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:19  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:20  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:21  Fecha: 22/05/2026
+IMU  yaw=40.5  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:22  Fecha: 22/05/2026
+IMU  yaw=40.5  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:23  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.5  (deg)
+Hora: 16:53:24  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.4  (deg)
+Hora: 16:53:25  Fecha: 22/05/2026
+IMU  yaw=40.4  pitch=0.9  roll=2.4  (deg)
+Hora: 16:53:26  Fecha: 22/05/2026
+IMU  yaw=70.3  pitch=2.2  roll=7.0  (deg)
+Hora: 16:53:27  Fecha: 22/05/2026
+IMU  yaw=68.9  pitch=-1.4  roll=5.5  (deg)
+Hora: 16:53:28  Fecha: 22/05/2026
+IMU  yaw=68.9  pitch=-1.5  roll=5.5  (deg)
+Hora: 16:53:29  Fecha: 22/05/2026
+IMU  yaw=69.2  pitch=-0.3  roll=5.5  (deg)
+Hora: 16:53:30  Fecha: 22/05/2026
+IMU  yaw=332.2  pitch=5.0  roll=1.3  (deg)
+Hora: 16:53:31  Fecha: 22/05/2026
+IMU  yaw=332.2  pitch=4.9  roll=1.1  (deg)
+Hora: 16:53:32  Fecha: 22/05/2026
+IMU  yaw=331.2  pitch=7.1  roll=-0.7  (deg)
+Hora: 16:53:33  Fecha: 22/05/2026
+IMU  yaw=331.2  pitch=1.3  roll=-1.3  (deg)
+Hora: 16:53:34  Fecha: 22/05/2026
+IMU  yaw=331.0  pitch=1.3  roll=-1.4  (deg)
+Hora: 16:53:35  Fecha: 22/05/2026
+IMU  yaw=334.8  pitch=3.2  roll=-0.7  (deg)
+Hora: 16:53:36  Fecha: 22/05/2026
+IMU  yaw=333.3  pitch=4.3  roll=-1.9  (deg)
+Hora: 16:53:37  Fecha: 22/05/2026
+IMU  yaw=333.3  pitch=4.5  roll=-2.0  (deg)
+Hora: 16:53:38  Fecha: 22/05/2026
+IMU  yaw=336.6  pitch=5.2  roll=-1.1  (deg)
+Hora: 16:53:39  Fecha: 22/05/2026
+IMU  yaw=312.9  pitch=10.4  roll=0.4  (deg)
+Hora: 16:53:40  Fecha: 22/05/2026
+IMU  yaw=310.4  pitch=11.5  roll=-1.2  (deg)
+Hora: 16:53:41  Fecha: 22/05/2026
+IMU  yaw=254.8  pitch=-3.1  roll=-7.8  (deg)
+Hora: 16:53:42  Fecha: 22/05/2026
+IMU  yaw=247.6  pitch=3.1  roll=-10.1  (deg)
+Hora: 16:53:43  Fecha: 22/05/2026
+IMU  yaw=247.7  pitch=3.0  roll=-10.0  (deg)
+Hora: 16:53:44  Fecha: 22/05/2026
+IMU  yaw=246.2  pitch=2.9  roll=-9.8  (deg)
+Hora: 16:53:45  Fecha: 22/05/2026
+IMU  yaw=245.9  pitch=-2.3  roll=-12.3  (deg)
+Hora: 16:53:46  Fecha: 22/05/2026
+IMU  yaw=246.0  pitch=-2.7  roll=-11.8  (deg)
+Hora: 16:53:47  Fecha: 22/05/2026
+IMU  yaw=195.8  pitch=-5.4  roll=-9.8  (deg)
+Hora: 16:53:48  Fecha: 22/05/2026
+IMU  yaw=172.1  pitch=-5.2  roll=-7.0  (deg)
+Hora: 16:53:49  Fecha: 22/05/2026
+IMU  yaw=172.4  pitch=-5.2  roll=-6.8  (deg)
+Hora: 16:53:50  Fecha: 22/05/2026
+IMU  yaw=174.6  pitch=-5.8  roll=-12.1  (deg)
+Hora: 16:53:51  Fecha: 22/05/2026
+IMU  yaw=173.3  pitch=-6.5  roll=-12.2  (deg)
+Hora: 16:53:52  Fecha: 22/05/2026
+IMU  yaw=173.3  pitch=-6.5  roll=-12.0  (deg)
+Hora: 16:53:53  Fecha: 22/05/2026
+IMU  yaw=158.7  pitch=-6.9  roll=8.2  (deg)
+Hora: 16:53:54  Fecha: 22/05/2026
+IMU  yaw=155.1  pitch=-2.7  roll=0.2  (deg)
+Hora: 16:53:55  Fecha: 22/05/2026
+IMU  yaw=155.1  pitch=-2.8  roll=0.3  (deg)
+Hora: 16:53:55  Fecha: 22/05/2026
+IMU  yaw=236.6  pitch=2.7  roll=-9.9  (deg)
+Hora: 16:53:56  Fecha: 22/05/2026
+IMU  yaw=244.9  pitch=0.9  roll=-3.4  (deg)
+Hora: 16:53:57  Fecha: 22/05/2026
+IMU  yaw=244.9  pitch=0.9  roll=-3.4  (deg)
+Hora: 16:53:58  Fecha: 22/05/2026
+IMU  yaw=245.3  pitch=0.5  roll=-3.3  (deg)
+Hora: 16:53:59  Fecha: 22/05/2026
+IMU  yaw=333.9  pitch=2.3  roll=-13.9  (deg)
+Hora: 16:54:00  Fecha: 22/05/2026
+IMU  yaw=332.4  pitch=2.7  roll=-13.3  (deg)
+Hora: 16:54:01  Fecha: 22/05/2026
+IMU  yaw=330.2  pitch=4.9  roll=-1.7  (deg)
+Hora: 16:54:02  Fecha: 22/05/2026
+IMU  yaw=336.5  pitch=4.5  roll=-0.7  (deg)
+Hora: 16:54:03  Fecha: 22/05/2026
+IMU  yaw=336.5  pitch=4.5  roll=-0.7  (deg)
+Hora: 16:54:04  Fecha: 22/05/2026
+IMU  yaw=336.7  pitch=4.5  roll=-0.6  (deg)
+Hora: 16:54:05  Fecha: 22/05/2026
+IMU  yaw=336.5  pitch=4.4  roll=-0.6  (deg)
+Hora: 16:54:06  Fecha: 22/05/2026
+IMU  yaw=336.5  pitch=4.4  roll=-0.5  (deg)
+Hora: 16:54:07  Fecha: 22/05/2026
+IMU  yaw=336.8  pitch=4.4  roll=-0.5  (deg)
+Hora: 16:54:08  Fecha: 22/05/2026
+IMU  yaw=328.6  pitch=3.9  roll=-0.3  (deg)
+Hora: 16:54:09  Fecha: 22/05/2026
+IMU  yaw=328.6  pitch=4.0  roll=-0.5  (deg)
+Hora: 16:54:10  Fecha: 22/05/2026
+IMU  yaw=319.3  pitch=0.9  roll=0.8  (deg)
+Hora: 16:54:11  Fecha: 22/05/2026
+IMU  yaw=309.6  pitch=0.6  roll=0.1  (deg)
+Hora: 16:54:12  Fecha: 22/05/2026
+IMU  yaw=309.6  pitch=0.6  roll=0.1  (deg)
+Hora: 16:54:13  Fecha: 22/05/2026
+IMU  yaw=309.6  pitch=0.5  roll=0.0  (deg)
+Hora: 16:54:14  Fecha: 22/05/2026
+IMU  yaw=309.6  pitch=0.5  roll=0.0  (deg)
+Hora: 16:54:15  Fecha: 22/05/2026
+IMU  yaw=309.6  pitch=0.5  roll=0.0  (deg)
+Hora: 16:54:16  Fecha: 22/05/2026
+IMU  yaw=309.6  pitch=0.5  roll=-0.0  (deg)
+Hora: 16:54:17  Fecha: 22/05/2026
+IMU  yaw=309.6  pitch=0.4  roll=-0.0  (deg)

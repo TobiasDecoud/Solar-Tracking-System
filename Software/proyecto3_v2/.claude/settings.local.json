@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(idf.py build *)",
+      "Bash(find /home/tobias/esp/proyecto3_v1 -type f | sort)",
+      "Read(//home/tobias/esp/proyecto3_v1/**)",
+      "Bash(mkdir -p /home/tobias/esp/proyecto3_v2/components/motor)"
+    ],
+    "additionalDirectories": [
+      "/home/tobias/esp/proyecto3_v2/components"
+    ]
+  }
+}
